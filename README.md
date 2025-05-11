@@ -7,7 +7,8 @@
 
 Ce projet est une réécriture en $\LaTeX$ du chansonnier des Guides Aventures de Gembloux.
 
-Le but est de fournir un document au format PDF qui puisse être imprimé en feuillets et relié.
+Le but est de fournir un document au format PDF qui puisse être imprimé et relié avec une reliure simple. Le format est B5, soit un peu plus grand que du A5. Il faut l’imprimer recto-verso sur des pages A4,
+et recouper les feuilles en laissant de la marge pour la reliure.
 
 Le fichier est rétrocompatible avec la version fournie par les chefs, c’est-à-dire  que les numéros de page correspondent. Par exemple la chanson « Mistral gagnant » est à la page 30 dans les deux versions.
 

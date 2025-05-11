@@ -14,7 +14,7 @@
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 \ProcessOptions\relax
-\LoadClass[12pt,oneside]{book}
+\LoadClass[14pt,oneside]{extbook}
 
 % SETUP: -----------------------------------------------------------------------
 \RequirePackage[basics, cover, figures, formatting, header, headings, isbn, license, metadata, publish, refs, size]{lix}
