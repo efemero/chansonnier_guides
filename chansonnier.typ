@@ -5,7 +5,6 @@
 #let repeat_refrain(n: 1) = {
   if n > 1 [*\[Refrain\] (#n ×)*] else [*\[Refrain\]*]
 }
-#repeat_refrain(n: 3)
 = Chant de rassemblement
 <chant-de-rassemblement>
 Nous sommes les guides de Gembloux, guides de Gembloux \
@@ -46,8 +45,8 @@ Pas de maison pour t’abriter \
   Vois au bois silencieux \
   Tes guides qui s’agenouillent \
   Bénis-les, ô Jésus dans les cieux \
-
 ]
+
 Merci de ce jour d’existence \
 Où ta bonté nous conserva \
 Merci de ta sainte présence \
@@ -171,8 +170,8 @@ Sans comprendre la détresse, des mots que j’envoie \
   Tout était clair comme de l’eau \
   Contre le passé y a rien à faire, il faudrait changer les héros \
   Dans un monde où le plus beau, reste à faire \
-
 ]
+
 Et je cours, je me raccroche à la vie \
 Je me saoule avec le bruit des corps qui m’entourent \
 Comme des lianes nouées de tresses \
@@ -193,8 +192,8 @@ Même un lundi, au paradis... \
 #refrain(n: 2)[
   Persooonne, ne te remplace \
   Non personne, ne te remplace \
-
 ]
+
 C’est un enfer à vivre, mais comment vivre avec \
 Mes envies insensées \
 Car ton armoire est vide, mes rêves me dévorent \
@@ -227,8 +226,8 @@ If I’d have known for just one second you’d be back to bother me \
   I’ve got all my life to live, I’ve got all my love to give \
   And I’ll survive, I will survive \
   Hey hey \
-
 ]
+
 It took all the strength I had not to fall apart \
 Kept trying’ hard to mend the pieces of my broken heart \
 And I spent oh so many nights, just feeling sorry for myself \
@@ -293,8 +292,8 @@ Il faut que tu saches \
   Même si dans tes danses d’autres dansent tes heures \
   J’irai chercher ton âme dans les froids dans les flammes \
   Je te jetterai des sorts pour que tu m’aimes encore \
-
 ]
+
 Fallait pas commencer m’attirer, me toucher \
 Fallait pas tant donner moi je sais pas jouer \
 On me dit qu’aujourd’hui, on me dit que les autres font ainsi \
@@ -334,8 +333,8 @@ Ensemble la même première \
   Pas à mon père \
   Pas à ma mère \
   Tu aurais pu chanter cela \
-
 ]
+
 Toi le frère que je n’ai jamais eu \
 Si tu savais ce que j’ai bu \
 De mes chagrins en solitaire \
@@ -383,8 +382,8 @@ Devenu grand \
   Si vous touchez \
   Au fruit de mes entrailles \
   Fallait pas qu’elle s’en aille \
-
 ]
+
 Bien sûr c’est elle qui l’a porté \
 Et pourtant \
 C’est moi qui lui construis sa vie lentement \
@@ -424,8 +423,8 @@ Seuls dans les genêts \
   On aimerait mieux cueillir le raisin \
   Ou simplement ne rien faire \
   Le lundi au soleil \
-
 ]
+
 Toi, tu es à... l’autre bout \
 De cette ville \
 Là-bas, comme chaque jour \
@@ -454,8 +453,8 @@ It was story d’amour. \
   It is not because you are, \
   I love you because I do \
   C’est pas parc’ que you are me qu’I am you. \
-
 ]
+
 You was really beautiful \
 In the middle of the foule. \
 Don’t let me misunderstood, \
@@ -560,8 +559,8 @@ Dérisions de nous dérisoires car \
   Foule sentimentale \
   Il faut voir comme on nous parle \
   Comme on nous parle \
-
 ]
+
 Il se dégage \
 De ces cartons d’emballage \
 Des gens lavés, hors d’usage \
@@ -601,8 +600,8 @@ Il y a un an, y a un siècle, y a une éternité \
   Et on s’aimera encore, lorsque l’amour sera mort \
   Toute la vie sera pareille à ce matin \
   Aux couleurs de l’été indien \
-
 ]
+
 Aujourd’hui je suis très loin de ce matin d’automne \
 Mais c’est comme si j’y étais. Je pense à toi. \
 Où es-tu? Que fais-tu? Est-ce que j’existe encore pour toi? \
@@ -635,8 +634,8 @@ Les poissons baisent dedans \
   Dès que les vents \
   tourneront \
   Nous nous en allerons \
-
 ]
+
 C’est pas l’homme qui prend la mer \
 C’est la mer qui prend l’homme \
 Moi la mer elle m’a pris \
@@ -727,8 +726,8 @@ Au fond de mon cerveau. \
   Pierrot, mon gosse, mon frangin, mon poteau, \
   Mon copain tu m’ tiens chaud. \
   Pierrot. \
-
 ]
+
 Depuis l’ temps que j’ te rêve, \
 Depuis l’ temps que j’ t’invente, \
 De pas te voir j’en crève \
@@ -858,8 +857,8 @@ Elle veut vraiment que rien ne soit sûr dans tout ce qu’elle croit \
   Ce n’est pas un problème pour moi \
   L’Aziza, \
   Je te veux si tu veux de moi \
-
 ]
+
 Et quand tu marches le soir ne trembles pas a- a- \
 Laisse glisser les mauvais regards qui pèsent sur toi, \
 L’Aziza \
@@ -899,8 +898,8 @@ Ce soir j’ai de la fièvre et toi tu meurs de froid \
   Chantent encore la même mélodie wowo \
   La lumière du phare d’Alexandrie \
   Fait naufrager les papillons de ma jeunesse. \
-
 ]
+
 Voiles sur les filles \
 Barques sur le Nil \
 Je suis dans ta vie \
@@ -948,8 +947,8 @@ pour changer tout ça \
   changer les femmes \
   changer les hommes \
   avec des géraniums \
-
 ]
+
 je m’souviens, on avait des chansons, \
 des paroles \
 comme des pétales et des corolles \
@@ -1081,8 +1080,8 @@ Mais tout a continué \
   Non, non, rien n’a changé \
   Tout, tout a continué \
   Héhé! Héhé! \
-
 ]
+
 Et pourtant bien des gens \
 Ont chanté avec nous \
 Et pourtant bien des gens \
@@ -1156,8 +1155,8 @@ Pour la Liberté.
   Dans ton sommeil \
   Et au réveil \
   Vis ton rêve ! \
-
 ]
+
 Rêve un matin d’été, un grand champ de blé \
 Un ami trouvé en chemin \
 Rêve un ruisseau d’eau claire, près d’une clairière \
@@ -1238,8 +1237,8 @@ une épaule fragile et forte a la fois \
   je te donne, je te donne tout ce que je vaux , ce que je suis, mes dons,
   \
   mes défauts, mes plus belles chances, mes différences
-
 ]
+
 = C’est écrit
 <cest-écrit>
 Elle te fera changer la course des nuages, \
@@ -1293,8 +1292,8 @@ Depuis je compte les nuits
   Même jour, même heure, mêmes port \
   On verra quand on aura 30 ans \
   Sur les marches de la place des grands hommes \
-
 ]
+
 Le jour est venu et moi aussi \
 Mais j’ veux pas être le premier. \
 Si on avait plus rien à se dire et si et si... \
@@ -1558,8 +1557,8 @@ Au doux regard. \
   Cette croix d’argent \
   Et de t’aimer toute ma vie \
   Je fais serment. \
-
 ]
+
 Hélas soupirait la bergère \
 Que répondront nos parents \
 Comment ferons-nous \
@@ -1576,8 +1575,8 @@ Dès le printemps ? \
   Pour qu’à mon retour \
   À tout jamais plus rien \
   N’empêche notre amour. \
-
 ]
+
 Alors il partit vers la ville \
 Et ramoneur il se fit \
 Sur tous les chemins \
@@ -1594,8 +1593,8 @@ Noir de suie. \
   Il te reviendra \
   Et tu seras bientôt \
   Encore entre ses bras. \
-
 ]
+
 Et quand les beaux jours refleurirent \
 Il s’en revint au hameau \
 Et sa fiancée \
@@ -1611,8 +1610,8 @@ Des troupeaux. \
   Par un mariage \
   Finit mon histoire \
   De la bergère et de son petit savoyard \
-
 ]
+
 = Mon mec à moi
 <mon-mec-à-moi>
 Il joue avec mon cœur, \
@@ -1704,8 +1703,8 @@ Pour moi c’est sûr, elle est d’ailleurs \
   Seymour Ceylan, Vous c’est l’eau, \
   c’est l’eau qui vous sépare \
   Et vous laisse à part \
-
 ]
+
 Moi des souvenirs d’enfance en France, violence \
 Manque d’indulgence par les différences que j’ai \
 Café Léger au lait mélangé \
@@ -1801,8 +1800,8 @@ Des «~Inti Fada~» partout \
   J’en jetterai aussi \
   Si tu t’sers de moi, trouillard \
   Pour chanter tes conneries
-
 ]
+
 = Morgane de toi
 <morgane-de-toi>
 Y a un mariolle, il a au moins quatre ans \
@@ -1824,8 +1823,8 @@ Si tu les écoutes y t’ feront porter leurs cartables \
   tu vas où j’ suis pas \
   Tu sais ma môme \
   Que j’ suis morgane de toi \
-
 ]
+
 Comme j’en ai marre de m’ faire tatouer des machins \
 Qui m’ font comme une bande dessinée sur la peau \
 J’ai écrit ton nom avec des clous dorés \
@@ -2060,8 +2059,8 @@ On se retrouve à l’abri sous un ciel aussi joli que de millier de roses
   Je viens du ciel et les étoiles entre elles ne parlent que de toi \
   D’un musicien qui fait jouer ses mains sur un morceau de bois \
   De leur amour plus bleu que le ciel autour \
-
 ]
+
 Petite Marie, je t’attends transi sous une tuile de ton toit \
 Le vent de la nuit froide me renvoie la ballade que j’avais écrite pour
 toi \
@@ -2083,8 +2082,8 @@ Je n’attends plus que toi pour partir... \
   Ça rajoute des couleurs aux couleurs de l’arc-en-ciel. \
   Ça fait rir’ les oiseaux, \
   Oh, oh, oh, rir’ les oiseaux \
-
 ]
+
 Une chanson d’amour, c’est comme un looping en avion : \
 Ça fait battre le cœur des filles et des garçons. \
 Une chanson d’amour, c’est l’oxygèn’ dans la maison. \
@@ -2123,8 +2122,8 @@ L’Amérique, l’Amérique \
   Tous les sifflets des trains, toutes les sirènes des bateaux \
   M’ont chanté cent fois la chanson de l’Eldorado \
   De l’Amérique \
-
 ]
+
 Mes amis, je vous dis adieu \
 Je devrais vous pleurer un peu \
 Pardonnez-moi si je n’ai dans les yeux \
@@ -2291,8 +2290,8 @@ Je l’aime à mourir \
 #refrain[
   Elle a dû faire toutes les guerres pour être si forte aujourd’hui \
   Elle a dû faire toutes les guerres de la vie, et l’amour aussi \
-
 ]
+
 Elle vit de son mieux son rêve d’opaline \
 Elle danse au milieu des forêts qu’elle dessine \
 Je l’aime à mourir \
@@ -2326,8 +2325,8 @@ Je l’aime à mourir \
   Juste un regard \
   Facile à faire \
   Un peu plus d’amour que d’ordinaire \
-
 ]
+
 Puisqu’on vit dans la même lumière \
 Même s’il y a des couleurs qu’ils préfèrent \
 Nous on voudrait leur dire \
@@ -2369,8 +2368,8 @@ Et j’ai grandi avec une place à prendre. \
   Merci à qui, à quoi ? \
   A faire la pluie et le beau temps \
   Pour des enfants à qui l’on ment. \
-
 ]
+
 On m’avait dit que les hommes sont tous pareils. \
 Y a plusieurs dieux, mais y’ a qu’un seul soleil. \
 Oui mais, l’ soleil il brille ou bien il brûle. \
@@ -2403,8 +2402,8 @@ L’homme est un animal~», me dit-elle \
   Plus rien ne la surprend sur la nature humaine \
   C’est pourquoi elle voudrait enfin si je le permets \
   Déjeuner en paix, déjeuner en paix, oh déjeuner en paix \
-
 ]
+
 Je regarde sur la chaise le journal du matin \
 Les nouvelles sont mauvaises d’où qu’elles viennent \
 «~Crois-tu qu’il va neiger ?~» me demande-t-elle soudain \
@@ -2659,8 +2658,8 @@ Elle aimait la musique surtout Schumann et puis Mozart \
   Comme toi que je regarde tout bas \
   Comme toi qui dort en rêvant à quoi \
   Comme toi comme toi comme toi comme toi \
-
 ]
+
 Elle allait à l’école au village d’en bas \
 Elle apprenait les livres elle apprenait les lois \
 Elle chantait les grenouilles et les princesses qui dorment au bois \
@@ -2695,8 +2694,8 @@ Pour ton cœur d’artichaut \
   Va pas t’tailler les veines \
   Une gonzesse de perdue \
   C’est dix copains qui r’viennent \
-
 ]
+
 On était tous maqués \
 Quand toi t’étais tous seul \
 Tu disais j’me fais chier \
@@ -2715,8 +2714,8 @@ Ton grand cœur de grand con \
   C’t’à moi qu’tu fais d’la peine \
   Une gonzesse de perdue \
   C’est dix copains qui r’viennent \
-
 ]
+
 J’vais dire on est des loups \
 On est fait pour vivre en bande \
 Mais surtout pas en couple \
@@ -2735,8 +2734,8 @@ Mais c’est bon pour la gueule \
   Ça sert à rien la haine \
   Une gonzesse de perdue \
   C’est dix copains qui r’viennent \
-
 ]
+
 Elle est plus amoureuse \
 Manu faut qu’tu t’arraches \
 Elle peut pas être heureuse \
@@ -2779,8 +2778,8 @@ A éteindre ou mettre le feu \
   Un matin de rien \
   Pour en faire \
   Un rêve plus loin \
-
 ]
+
 Encore un matin \
 Ou juge ou coupable \
 Ou bien victime ou bien capable \
@@ -2863,8 +2862,8 @@ Les gens qui pensent autrement \
   Et les soldats au garde à vous \
   Simplement sur ses deux pieds, \
   Il voulait être lui, vous comprenez \
-
 ]
+
 Il n’y a que pour sa musique, qu’il était patriote \
 Il s’rait mort au champ d’honneur pour quelques notes \
 Et pour quelles raisons étranges, \
@@ -2933,8 +2932,8 @@ Que c’est déjà la fin mais... \
   Que le plus important à vivre, \
   Est de vivre au jour le jour. \
   Le temps c’est de l’Amour... \
-
 ]
+
 Même, si je n’ai pas le temps, \
 D’assurer mes sentiments... \
 J’ai en moi, oh de plus en plus fort, \
@@ -2978,8 +2977,8 @@ Tell’ment si belle, je l’aime tell’ment si fort \
   Elle a tiré la première, m’a touché, c’est foutu \
   Elle a les yeux revolver, elle a le regard qui tue \
   Elle a tiré la première, elle m’a touché, c’est foutu \
-
 ]
+
 Un peu larguée, un peu seule sur la terre \
 Les mains tendues, les cheveux en arrière \
 Et j’aime ça \
@@ -3056,8 +3055,8 @@ Pour t’apprivoiser \
   A midi ou à minuit \
   Il y a tout ce que vous voulez \
   Aux champs Elysées \
-
 ]
+
 Tu m’as dis j’ai rendez-vous \
 Dans un sous sol avec des fous \
 Qui vivent la guitare a la main \
@@ -3141,8 +3140,8 @@ Monsieur Durand \
   Qu’elles se jettent sur moi \
   Qu’elles m’admirent, qu’elles me tuent \
   Qu’elles s’arrachent ma vertu \
-
 ]
+
 Pour les anciennes de l’école \
 Devenir une idole \
 J’veux que toutes les nuits \
@@ -3241,8 +3240,8 @@ Comme tu peux les haïr
   Pour attirer les moineaux les pigeons \
   Elle vit sa vie par procuration \
   Devant son poste de télévision \
-
 ]
+
 Lever sans réveil, avec le soleil \
 Sans bruit, sans angoisse, la journée se passe \
 Repasser, poussière, y a toujours à faire \
@@ -3300,8 +3299,8 @@ Mais c’t encore plus facile de ne parler de rien. \
   Je vais pas me taire parce que t’as mal aux yeux. \
   Alors regarde, regarde un peu... \
   Tu verras tout c’ qu’on peut faire si on est deux. \
-
 ]
+
 Perdue dans tes nuances, la conscience au repos, \
 Pendant qu’ le monde avance, tu trouves pas bien tes mots. \
 T’ hésites entre tout dire et un drôle de silence. \
@@ -3354,8 +3353,8 @@ Speaking words of wisdom, let it be. \
 #refrain[
   Let it be, let it be, let it be, let it be, \
   Whisper words of wisdom, let it be ! \
-
 ]
+
 And when the broken hearted people \
 Living in the world agree, \
 There will be an answer, let it be. \
@@ -3405,8 +3404,8 @@ Les yeux verts noyés de cheveux roux \
   Je garde un mirage dans une drôle de cage \
   Comme savent construire les fous \
   Je t’ai cherchée partout \
-
 ]
+
 Au lendemain de l’orage \
 Il restait un message \
 Vous me plaisiez beaucoup \
@@ -3440,8 +3439,8 @@ Le Maharadjah en répondra. \
   L’aventurier contre tout guerrier \
   Bob Morane contre tout chacal \
   L’aventurier contre tout guerrier \
-
 ]
+
 Dérivant à bord du sampang \
 L’aventure au parfum d’Ylalang \
 Son surnom, Samouraï du Soleil \
@@ -3541,8 +3540,8 @@ Où je dérive parfois \
   Des poignées de secondes \
   Dans cet étrange monde \
   Qu’il te protège s’il entend \
-
 ]
+
 Tu sais pas bien où tu vas \
 Ni bien comment, ni pourquoi \
 Tu crois pas à grand chose \
@@ -3716,8 +3715,8 @@ Un coup d’amour, un coup d’je t’aime
 #refrain[
   La terre chante les couleurs, les couleurs \
   Que Dieu à mises dans nos mains, dans nos mains. \
-
 ]
+
 + Crayon bleu, crayon bleu, Dieu dessine le ciel \
   Crayon noir, crayon noir, Dieu dessine la nuit \
 
@@ -3785,8 +3784,8 @@ Jusqu’à la fin des jours
   C’était un cheval blanc. \
   Il était mon idole \
   Et moi, j’avais dix ans. \
-
 ]
+
 Notre pauvre père, \
 Pour acheter ce pur sang, \
 Avait mis dans l’affaire \
@@ -3959,8 +3958,8 @@ C’est bien trop court, c’est bien trop court.
   Ça vit d’air pur et d’eau fraîche, un oiseau \
   D’un peu de chasse et de pêche, un oiseau \
   Mais jamais rien ne l’empêche, l’oiseau, d’aller plus haut \
-
 ]
+
 Mais je suis seul dans l’univers \
 J’ai peur du ciel et de l’hiver \
 J’ai peur des fous et de la guerre \
@@ -4102,8 +4101,8 @@ Avant que l’on oublie sa voix ? \
   Ecoute mon ami \
   Ecoute dans le vent \
   Ecoute, la réponse dans le vent. \
-
 ]
+
 Combien de fois doit-on lever les yeux \
 Avant que de voir le soleil ? \
 Combien d’oreilles faut-il aux malheureux \
@@ -4214,8 +4213,8 @@ D’un petit âne gris...
   Autour du « Chat Noir » \
   Au clair de la lune \
   À Montmartre le soir \
-
 ]
+
 + Chez l’boulanger \
   Fais-moi crédit \
   J’ai pas d’argent \
@@ -4275,8 +4274,8 @@ D’un petit âne gris...
   A l’aurore de chaque matin \
   L’aventure commence alors \
   Que la lumière nous lave les mains \
-
 ]
+
 Tout ce que l’on cherche à redécouvrir \
 Fleurit chaque jour au coin de nos vies \
 La grande aventure il faut la cueillir \
@@ -4318,8 +4317,8 @@ A la manière d’un feu de joie \
   Quand le croqu’mort t’emportera \
   Qu’il te conduise à travers ciel \
   Au père éternel \
-
 ]
+
 Elle est à toi cette chanson \
 Toi l’hôtesse qui sans façon \
 M’as donné quatre bouts de pain \
@@ -4600,8 +4599,8 @@ Chantons pour elle quelque chose \
   Elle aime à rire, elle aime à boire \
   Elle aime à chanter comme nous \
   TROMPETTE! \
-
 ]
+
 Fanchon, quoique bonne chrétienne \
 Fut baptisée avec du vin \
 Un Bourguignon fut son parrain \
@@ -4630,8 +4629,8 @@ Mais quand j’ai dit qu’avec elle je voudrais y rouler aussi \
   De l’attendre avec un petit bouquet d’églantines \
   J’ai cueilli des fleurs et j’ai sifflé tant que j’ai pu \
   J’ai attendu, attendu, elle n’est jamais venue \
-
 ]
+
 Zaï zaï zaï zaï zaï, zaï zaï zaï zaï, zaï zaï zaï zaï (2×) \
 A la foire du village un jour je lui ai soupiré \
 Que je voudrais être une pomme suspendue à un pommier \
@@ -4722,8 +4721,8 @@ Sois gai lorsque le ciel est sans voile.
   Comme une fleur que l’on cueille entre les orties \
   Elle doit venir, comme vient le beau temps \
   Elle doit venir comme vient le printemps \
-
 ]
+
 Demandez-moi tout ce que vous voulez \
 Et sans regrets je vous le donne \
 Mais dites-moi où je la trouverai \
@@ -4795,8 +4794,8 @@ houla houla. \
 #refrain[
   Parés à virer, Les gars, faudrait y aller. On s’ repos’ra quand on
   arriv’ra Dans le port de Tacoma.
-
 ]
+
 C’est dans la pipe qu’on met l’tabac, \
 houla la houla, \
 C’est dans la pipe qu’on met l’tabac, \
@@ -4864,8 +4863,8 @@ Pour accueillir quelque temps les amours débutants \
   Bancs publics, bancs publics \
   En s’disant des \"Je t’aime\" pathétiques \
   Ont des p’tit’s gueul’ bien sympatiques \
-
 ]
+
 Ils se tiennent par la main \
 Parlent du lendemain \
 Du papier bleu d’azur \
@@ -4948,8 +4947,8 @@ Pendant qu’en bas nous on danse toute la nuit \
   De vivre y a que ça d’important \
   On se fout pas mal de la morale \
   On sait bien qu’on fait pas de mal \
-
 ]
+
 Les rois du monde ont peur de tout \
 C’est qu’ils confondent les chiens et les loups \
 Ils font des pièges où ils tomberont un jour \
@@ -5012,8 +5011,8 @@ Et même si tout est joué d’avance, on ira, on ira
   La rivière insolente \
   Qui unit dans son lit \
   Les cheveux blonds, les cheveux gris. \
-
 ]
+
 Elle fait chanter les hommes et s’agrandir le monde. \
 Elle fait parfois souffrir tout le long d’une vie. \
 Elle fait pleurer les femmes, elle fait crier dans l’ombre \
@@ -5046,8 +5045,8 @@ Ou à force de murmures \
   J’irai au bout de mes rêves \
   Où la raison s’achève \
   Tout au bout de mes rêves \
-
 ]
+
 Et même s’il faut partir \
 Changer de terre ou de trace \
 S’il faut chercher dans l’exil \
@@ -5077,8 +5076,8 @@ Que j’effacerai ton nom. \
   Des nuages noirs qui viennent du nord \
   Colorent la terre, les lacs, les rivières \
   C’est le décor du Connemara \
-
 ]
+
 Au printemps suivant, le ciel irlandais était en paix \
 Maureen a plongé nue dans un lac du Connemara \
 Sean Kelly s’est dit \"je suis catholique\", Maureen aussi \
@@ -5118,8 +5117,8 @@ Ni celle des rois d’Angleterre
   J’ai accepté par erreur ton invitation \
   J’ai dû m’gourer dans l’heure \
   J’ai dû m’planter dans la saison \
-
 ]
+
 Tu sais j’ai confondu \
 Avec celle qui sourit pas \
 Mais celle qui est belle bien entendu \
@@ -5765,8 +5764,8 @@ Je chantais en Italien \
   Je serai je pense \
   Un peu en avance \
   Au rendez-vous de nos promesses \
-
 ]
+
 Je reviendrai danser \
 Une chanson triste, un slow d’été \
 Je te tiendrai la main \
@@ -5795,8 +5794,8 @@ Et pas artificiel \
   Et je voudrais que tu te rappelles \
   Notre amour est éternel \
   Et pas artificiel \
-
 ]
+
 Je voudrais que tu m’appelles plus souvent \
 Que tu prennes parfois le devant \
 Et je voudrais que tu te rappelles \
@@ -5883,8 +5882,8 @@ d’accélérer le temps.
 
 #refrain[
   Dam dam déo oh oh oh, dam dam déo oh oh oh oh. \
-
 ]
+
 Un sms vient d’arriver, j’ai 20 ans, \
 on l’a fait sans se protéger mais j’veux pas d’un enfant, \
 l’horloge tourne, les minutes infanticides \
@@ -5968,8 +5967,8 @@ It puts my back up, puts my back up against the wall \
 #refrain[
   Sunday, Bloody Sunday \
   Sunday, Bloody Sunday \
-
 ]
+
 Alright, let’s go \
 And the battle’s just begun \
 There’s many lost, but tell me who has won? \
@@ -6011,8 +6010,8 @@ Offrez-moi la Tour Eiffel, j’en ferais quoi ? papalapapapala \
   moi j’veux crever la main sur le cœur papalapapapala allons ensemble,
   découvrir ma liberté, oubliez donc tous vos clichés, bienvenue dans ma
   réalité. \
-
 ]
+
 J’en ai marre de vos bonnes manières, c’est trop pour moi ! \
 Moi je mange avec les mains et j’suis comme ça ! \
 J’parle fort et je suis franche, excusez moi ! \
@@ -6064,8 +6063,8 @@ Aux peurs impossibles à échanger \
   Plus lui plus elle et tous ceux qui sont seuls \
   Allez, venez et entrez dans la danse \
   Allez, venez et laissez faire l’insouciance \
-
 ]
+
 À deux, à mille, je sais qu’on est capables \
 Tout est possible, tout est réalisable \
 On peut s’enfuir bien plus haut que nos rêves \
@@ -6382,8 +6381,8 @@ De l’homme auquel j’appartiens \
   Et dès que je l’aperçois \
   Alors je sens en moi \
   Mon cœur qui bat \
-
 ]
+
 Des nuits d’amour à plus finir \
 Un grand bonheur, qui prend sa place \
 Des ennuis des chagrins s’effacent \
@@ -6928,8 +6927,8 @@ Encore plus haut, encore plus loin \
   S’il le faut, j’en ferai \
   J’en ai déjà fait \
   Mais toujours, le poing levé \
-
 ]
+
 Je ne suis pas comme toutes ces filles \
 Qu’on dévisage, qu’on déshabille \
 Moi, j’ai des formes et des rondeurs \
@@ -7288,8 +7287,8 @@ Remplissaient tous mes vœux \
   Just wanna be free in my world \
   Vivere per libertà \
   Vivere nella libertà \
-
 ]
+
 Alors une petite fille aussi belle que nature \
 Me prit par la main et me dit \"suis cette aventure\" \
 On disait même, oh oui, que la mer l’enviait \
@@ -7334,8 +7333,8 @@ Mais demain, rien n’ira mieux \
   Nous gagnerons à devenir fous \
   Devenir fous \
   Devenir fous \
-
 ]
+
 Encore un jour se lève sur la planète France \
 Mais j’ai depuis longtemps perdu mes rêves \
 Je connais trop la danse, comme toujours \
@@ -7361,8 +7360,8 @@ Qui sait? Si on ferme les yeux, on vivra vieux \
   Nous gagnerons à devenir fous \
   Devenir fous \
   Devenir fous \
-
 ]
+
 Encore un jour se lève \
 Sur la jeunesse France \
 Mais j’ai perdu mes rêves \
