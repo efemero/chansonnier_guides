@@ -37,7 +37,7 @@ jobs:
           draft: true
           prerelease: true
           files: |
-            ./result/chansonnier.pdf
+            ./result/pdf/*.pdf
         
 
 permissions:
