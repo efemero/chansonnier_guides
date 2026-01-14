@@ -1,0 +1,45 @@
+name: Création du PDF
+on:
+  push:
+    tags:
+      "*"
+    
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build all the needed artifacts
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      # Install nix with some cache
+      - name: Install Nix (upstream)
+        uses: cachix/install-nix-action@v31.6.2
+        with:
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+            eval-cache = true
+            extra-substituters = https://nix-community.cachix.org https://cache.garnix.io
+            extra-trusted-public-keys = nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs= cache.garnix.io-1:CTFPyKSLcx3t+q56Ns4kq7YEZc8WSfbVwqy1Y3hj4W8=
+
+      - name: Build PDF
+        run: nix build
+
+      - name: Create GitHub Release and Upload assets
+        uses: softprops/action-gh-release@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          name: Release ${{ github.ref_name }}
+          draft: true
+          prerelease: true
+          files: |
+            ./result/chansonnier.pdf
+        
+
+permissions:
+  contents: write
+  actions: read
