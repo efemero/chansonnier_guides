@@ -1,10 +1,37 @@
-#let refrain(body, n: 1) = {
-  if n > 1 [*Refrain (#n ×):\ #body*] else [*Refrain:\ #body*]
+#let refrain(body, ..n) = {
+  if (
+    n.pos().len() == 0
+  ) [*Refrain:\ #body*] else [*Refrain (#n.pos().at(0) ×):\ #body*]
 }
 
-#let repeat_refrain(n: 1) = {
-  if n > 1 [*\[Refrain\] (#n ×)*] else [*\[Refrain\]*]
+#let repeat_refrain(..n) = {
+  if (
+    n.pos().len() == 0
+  ) [*\[Refrain\]*] else [*\[Refrain\] (#n.pos().at(0) ×)*]
 }
+#set page(
+  paper: "a5",
+  margin: 1.5cm,
+  numbering: "i",
+)
+#outline()
+
+#show heading: set text(16pt)
+#show heading: set align(center)
+
+#pagebreak()
+#set page(
+  footer: context [
+    #set align(center)
+    #set text(14pt)
+    #counter(page).display(
+      "1",
+    )
+  ],
+)
+#counter(page).update(1)
+#set text(15pt)
+
 = Chant de rassemblement
 <chant-de-rassemblement>
 Nous sommes les guides de Gembloux, guides de Gembloux \
@@ -28,69 +55,85 @@ On va vous la chanter encore, chanter encore, \
 Et la recommencer plus fort, encore plus FORT, \
 PLUS FORT, PLUS FORT, PLUS FORT, PLUS FORT, PLUS FORT !
 
+#pagebreak()
+
+#set text(11pt)
 = Cantique des patrouilles
 <cantique-des-patrouilles>
-Seigneur, rassemblées près des tentes \
-Pour saluer la fin du jour \
-Tes guides laissent leur voix chantantes \
-Monter vers Toi, pleines d’amour \
-Tu dois aimer l’humble prière \
-Qui de ce camp s’en va monter \
-Ô Toi qui n’avais sur la terre \
-Pas de maison pour t’abriter \
+#columns(2, gutter: 8pt)[
+  Seigneur, rassemblées près des tentes \
+  Pour saluer la fin du jour \
+  Tes guides laissent leur voix chantantes \
+  Monter vers Toi, pleines d’amour \
+  Tu dois aimer l’humble prière \
+  Qui de ce camp s’en va monter \
+  Ô Toi qui n’avais sur la terre \
+  Pas de maison pour t’abriter \
 
-#refrain[
-  Nous venons toutes les patrouilles \
-  Te prier pour Te servir mieux \
-  Vois au bois silencieux \
-  Tes guides qui s’agenouillent \
-  Bénis-les, ô Jésus dans les cieux \
+  #refrain(
+    [
+      Nous venons toutes les patrouilles \
+      Te prier pour Te servir mieux \
+      Vois au bois silencieux \
+      Tes guides qui s’agenouillent \
+      Bénis-les, ô Jésus dans les cieux \
+    ],
+  )
+  #colbreak()
+
+  Merci de ce jour d’existence \
+  Où ta bonté nous conserva \
+  Merci de ta sainte présence \
+  Qui de tout mal nous préserva \
+  Merci du bien fait par les guides \
+  Merci des conseils reçus \
+  Merci de l’amour qui nous groupe \
+  Comme des sœurs, ô Jésus. \
+
+  #repeat_refrain()
 ]
-
-Merci de ce jour d’existence \
-Où ta bonté nous conserva \
-Merci de ta sainte présence \
-Qui de tout mal nous préserva \
-Merci du bien fait par les guides \
-Merci des conseils reçus \
-Merci de l’amour qui nous groupe \
-Comme des sœurs, ô Jésus. \
-#strong[\[Refrain\]] \
 
 = Chant de la promesse
 <chant-de-la-promesse>
-+ Devant tous je m’engage \
-  Sur mon honneur \
-  Et je te fais hommage \
-  De moi, Seigneur. \
+#columns(2, gutter: 8pt)[
+  + Devant tous je m’engage \
+    Sur mon honneur \
+    Et je te fais hommage \
+    De moi, Seigneur. \
 
-  #refrain[
-    Je veux t’aimer sans cesse \
-    De plus en plus \
-    Protège ma Promesse \
-    Seigneur Jésus. \
+    #refrain[
+      Je veux t’aimer sans cesse \
+      De plus en plus \
+      Protège ma Promesse \
+      Seigneur Jésus. \
 
-  ]
+    ]
 
-+ Je jure de te suivre \
-  En fier chrétien \
-  Et tout entier je livre \
-  Mon cœur au tien \
+  + Je jure de te suivre \
+    En fier chrétien \
+    Et tout entier je livre \
+    Mon cœur au tien \
+    #colbreak()
 
-+ Fidèle à ma Patrie \
-  Je le serai \
-  Tous les jours de ma vie \
-  Je servirai. \
+  + Fidèle à ma Patrie \
+    Je le serai \
+    Tous les jours de ma vie \
+    Je servirai. \
 
-+ Je suis de tes apôtres \
-  Et chaque jour \
-  Je veux aider les autres \
-  Pour ton amour \
+  + Je suis de tes apôtres \
+    Et chaque jour \
+    Je veux aider les autres \
+    Pour ton amour \
 
-+ Ta Règle a sur nous-mêmes \
-  Un droit sacré. \
-  Je suis faible tu m’aimes \
-  Je maintiendrai. \
+  + Ta Règle a sur nous-mêmes \
+    Un droit sacré. \
+    Je suis faible tu m’aimes \
+    Je maintiendrai. \
+]
+
+#pagebreak()
+
+#set text(13pt)
 
 = Il est libre Max
 <il-est-libre-max>
@@ -120,6 +163,8 @@ Qu’est ce qu’ils s’racontent, c’est ça qu’il faudrait savoir \
 Pour avoir comme lui autant d’amour dans le regard \
 Il est libre Max ! Il est libre Max ! \
 Y’en a même qui disent qu’ils l’ont vu voler
+#pagebreak()
+#set text(13pt)
 
 = The lion sleeps tonight
 <the-lion-sleeps-tonight>
@@ -137,149 +182,169 @@ Awimobawe, awimbawe, awimbawe, awimbawe, awimobawe, awimbawe, awimbawe \
 Hush my darling, don’t fear my darling. The lion sleeps tonight. \
 Hush my darling, don’t fear my darling. The lion sleeps tonight \
 Awimobawe, awimbawe, awimbawe, awimbawe, awimobawe, awimbawe, awimbawe
+#pagebreak()
+#set text(9pt)
 
 = Tous les cris, les S.O.S.
-<tous-les-cris-les-s.o.s.>
-Comme un fou va jeter à la mer \
-Des bouteilles vides et puis espère \
-Qu’on pourra lire à travers, S.O.S. écrit avec de l’air \
-Pour te dire que je me sens seul \
-Je dessine à l’encre vide, un désert \
-Et je cours, je me raccroche à la vie \
-Je me saoule avec le bruit des corps qui m’entourent \
-Comme des lianes nouées de tresses \
-Sans comprendre la détresse, des mots que j’envoie \
-Difficile d’appeler au secours \
-Quand tant de drames nous oppressent \
-Et les larmes nouées de stress \
-Étouffent un peu plus les cris d’amour \
-De ceux qui sont dans la faiblesse \
-Et dans un dernier espoir, disparaissent \
-Et je cours, je me raccroche à la vie \
-Je me saoule avec le bruit des corps qui m’entourent \
-Comme des lianes nouées de tresses \
-Sans comprendre la détresse, des mots que j’envoie \
+#columns(2, gutter: 8pt)[
+  <tous-les-cris-les-s.o.s.>
+  Comme un fou va jeter à la mer \
+  Des bouteilles vides et puis espère \
+  Qu’on pourra lire à travers, S.O.S. écrit avec de l’air \
+  Pour te dire que je me sens seul \
+  Je dessine à l’encre vide, un désert \
+  Et je cours, je me raccroche à la vie \
+  Je me saoule avec le bruit des corps qui m’entourent \
+  Comme des lianes nouées de tresses \
+  Sans comprendre la détresse, des mots que j’envoie \
+  Difficile d’appeler au secours \
+  Quand tant de drames nous oppressent \
+  Et les larmes nouées de stress \
+  Étouffent un peu plus les cris d’amour \
+  De ceux qui sont dans la faiblesse \
+  Et dans un dernier espoir, disparaissent \
+  Et je cours, je me raccroche à la vie \
+  Je me saoule avec le bruit des corps qui m’entourent \
+  Comme des lianes nouées de tresses \
+  Sans comprendre la détresse, des mots que j’envoie \
+  #colbreak()
 
-#refrain[
-  Tous les cris les S.O.S., partent dans les airs \
-  Dans l’eau laissent une trace, dont les écumes font la beauté \
-  Pris dans leur vaisseau de verre, les messages luttent \
-  Mais les vagues les ramènent \
-  En pierres d’étoiles sur les rochers \
-  J’ai ramassé les bouts de verre, j’ai recollé tous les morceaux \
-  Tout était clair comme de l’eau \
-  Contre le passé y a rien à faire, il faudrait changer les héros \
-  Dans un monde où le plus beau, reste à faire \
+  #refrain[
+    Tous les cris les S.O.S., partent dans les airs \
+    Dans l’eau laissent une trace, dont les écumes font la beauté \
+    Pris dans leur vaisseau de verre, les messages luttent \
+    Mais les vagues les ramènent \
+    En pierres d’étoiles sur les rochers \
+    J’ai ramassé les bouts de verre, j’ai recollé tous les morceaux \
+    Tout était clair comme de l’eau \
+    Contre le passé y a rien à faire, il faudrait changer les héros \
+    Dans un monde où le plus beau, reste à faire \
+  ]
+
+  Et je cours, je me raccroche à la vie \
+  Je me saoule avec le bruit des corps qui m’entourent \
+  Comme des lianes nouées de tresses \
+  Sans comprendre la détresse, des mots que j’envoie \
+  #strong[\[Refrain\]]
 ]
-
-Et je cours, je me raccroche à la vie \
-Je me saoule avec le bruit des corps qui m’entourent \
-Comme des lianes nouées de tresses \
-Sans comprendre la détresse, des mots que j’envoie \
-#strong[\[Refrain\]]
 
 = Personne
 <personne>
-J’avais perdu l’habitude, des clés de la solitude \
-J’avais perdu l’amer et les déserts arides \
-Même la chaleur des pull-overs \
-J’avais perdu l’enfer, au paradis... \
-J’avais oublié les refrains, qui nous rappellent à l’ordre \
-Et ton foutu désordre, ce désordre essentiel \
-Mais si confidentiel, l’existence et les roses se fanent \
-Même un lundi, au paradis... \
+#columns(2, gutter: 8pt)[
+  J’avais perdu l’habitude, des clés de la solitude \
+  J’avais perdu l’amer et les déserts arides \
+  Même la chaleur des pull-overs \
+  J’avais perdu l’enfer, au paradis... \
+  J’avais oublié les refrains, qui nous rappellent à l’ordre \
+  Et ton foutu désordre, ce désordre essentiel \
+  Mais si confidentiel, l’existence et les roses se fanent \
+  Même un lundi, au paradis... \
 
-#refrain(n: 2)[
-  Persooonne, ne te remplace \
-  Non personne, ne te remplace \
+  #refrain(
+    [
+      Persooonne, ne te remplace \
+      Non personne, ne te remplace \
+    ],
+    2,
+  )
+  #colbreak()
+
+  C’est un enfer à vivre, mais comment vivre avec \
+  Mes envies insensées \
+  Car ton armoire est vide, mes rêves me dévorent \
+  Et mes draps sont glacés, toutes les nuits... \
+  On a plus goût à rien, mais tant besoin de tout \
+  C’qui pourrait remplacer un être indélébile \
+  On cherche en vain le double, on serait prêt à tout \
+  Pour revoir le jour, toutes les nuits... \
+  #repeat_refrain(3)
 ]
 
-C’est un enfer à vivre, mais comment vivre avec \
-Mes envies insensées \
-Car ton armoire est vide, mes rêves me dévorent \
-Et mes draps sont glacés, toutes les nuits... \
-On a plus goût à rien, mais tant besoin de tout \
-C’qui pourrait remplacer un être indélébile \
-On cherche en vain le double, on serait prêt à tout \
-Pour revoir le jour, toutes les nuits... \
-#strong[\[Refrain\] (3×)]
-
+#set text(7.5pt)
 = I will survive
 <i-will-survive>
-At first I was afraid, I was petrified \
-Kept thinkin’ I could never live without you by my side \
-But then I spent so many nights thinkin’ how you did me wrong \
-And I grew strong and I learned how to get along \
-And now you’re back from outer space \
-And I find you here with that sad look upon your face \
-I should have changed that stupid lock \
-I should have made you leave your key \
-If I’d have known for just one second you’d be back to bother me \
+#columns(2, gutter: 8pt)[
+  At first I was afraid, I was petrified \
+  Kept thinkin’ I could never live without you by my side \
+  But then I spent so many nights thinkin’ how you did me wrong \
+  And I grew strong and I learned how to get along \
+  And now you’re back from outer space \
+  And I find you here with that sad look upon your face \
+  I should have changed that stupid lock \
+  I should have made you leave your key \
+  If I’d have known for just one second you’d be back to bother me \
 
-#refrain[
-  : Go on now, go, walk out the door, just turn around now \
-  Cause you’re not welcome anymore \
-  You’re the one who tried to hurt me with goodbye \
-  Did you think I’d crumble, did you think I’d lay down and die? \
-  Oh no I will survive \
-  Oh, as long as I know how to love I know I’ll stay alive \
-  I’ve got all my life to live, I’ve got all my love to give \
-  And I’ll survive, I will survive \
-  Hey hey \
+  #refrain[
+    Go on now, go, walk out the door, just turn around now \
+    Cause you’re not welcome anymore \
+    You’re the one who tried to hurt me with goodbye \
+    Did you think I’d crumble, did you think I’d lay down and die? \
+    #colbreak()
+    Oh no I will survive \
+    Oh, as long as I know how to love I know I’ll stay alive \
+    I’ve got all my life to live, I’ve got all my love to give \
+    And I’ll survive, I will survive \
+    Hey hey \
+  ]
+
+  It took all the strength I had not to fall apart \
+  Kept trying’ hard to mend the pieces of my broken heart \
+  And I spent oh so many nights, just feeling sorry for myself \
+  I used to cry \
+  But now I hold my head up high and you see in me somebody new \
+  Not that chained up little person still in love with you \
+  And so you feel like droppin’ in, and just expect me to be free \
+  But now I’m savin’ all my lovin’ for someone who’s lovin’ me \
+  #repeat_refrain(2)
 ]
-
-It took all the strength I had not to fall apart \
-Kept trying’ hard to mend the pieces of my broken heart \
-And I spent oh so many nights, just feeling sorry for myself \
-I used to cry \
-But now I hold my head up high and you see in me somebody new \
-Not that chained up little person still in love with you \
-And so you feel like droppin’ in, and just expect me to be free \
-But now I’m savin’ all my lovin’ for someone who’s lovin’ me \
-#strong[\[Refrain\] (2×)]
 
 = Hotel California
 <hotel-california>
-On a dark desert highway, cool wind in my hair \
-Warm smell of colitas rising up through the air \
-Up ahead in the distance, I saw a shimmering light \
-My head grew heavy, and my sight grew dimmer \
-I had to stop for the night \
-There she stood in the doorway; \
-I heard the mission bell \
-And I was thinking to myself, \
-’This could be Heaven or this could be Hell’ \
-Then she lit up a candle and she showed me the way \
-There were voices down the corridor, I thought I heard them say... \
-Welcome to the Hotel California \
-Such a lovely place (such a lovely flace) \
-Plenty of room at the Hotel California \
-Any time of year, you can find it here \
-Her mind is Tiffany-twisted, She got the Mercedes Benz \
-She’s got a lot of pretty, pretty boys, that she calls friends \
-How they dance in the courtyard, sweet summer sweat. \
-Some dance to remember, some dance to forget \
-So I called up the Captain, ’Please bring me my wine’ \
-He said, ’We haven’t had that spirit here since 1969’ \
-And still those voices are calling from far away \
-Wake you up in the middle of the night \
-Just to hear them say... \
-Welcome to the Hotel California \
-Such a lovely Place (such a lovely face) \
-They livin’ it up at the Hotel California \
-What a nice surprise, bring your alibis \
-Mirrors on the ceiling, the pink champagne on ice \
-And she said ’We are all just prisoners here, of our own device’ \
-And in the master’s chambers, they gathered for the feast \
-They stab it with their steely knives, but they just can’t kill the
-beast \
-Last thing I remember, I was running for the door \
-I had to find the passage back to the place I was before \
-’Relax’ said the nightman, We are programed to receive. \
-You can check out any time you like, but you can never leave \
+#columns(2, gutter: 8pt)[
+  On a dark desert highway, cool wind in my hair \
+  Warm smell of colitas rising up through the air \
+  Up ahead in the distance, I saw a shimmering light \
+  My head grew heavy, and my sight grew dimmer \
+  I had to stop for the night \
+  There she stood in the doorway; \
+  I heard the mission bell \
+  And I was thinking to myself, \
+  ’This could be Heaven or this could be Hell’ \
+  Then she lit up a candle and she showed me the way \
+  There were voices down the corridor, I thought I heard them say... \
+  Welcome to the Hotel California \
+  Such a lovely place (such a lovely flace) \
+  Plenty of room at the Hotel California \
+  Any time of year, you can find it here \
+  Her mind is Tiffany-twisted, She got the Mercedes Benz \
+  She’s got a lot of pretty, pretty boys, that she calls friends \
+  How they dance in the courtyard, sweet summer sweat. \
+  Some dance to remember, some dance to forget \
+  #colbreak()
+  So I called up the Captain, ’Please bring me my wine’ \
+  He said, ’We haven’t had that spirit here since 1969’ \
+  And still those voices are calling from far away \
+  Wake you up in the middle of the night \
+  Just to hear them say... \
+  Welcome to the Hotel California \
+  Such a lovely Place (such a lovely face) \
+  They livin’ it up at the Hotel California \
+  What a nice surprise, bring your alibis \
+  Mirrors on the ceiling, the pink champagne on ice \
+  And she said ’We are all just prisoners here, of our own device’ \
+  And in the master’s chambers, they gathered for the feast \
+  They stab it with their steely knives, but they just can’t kill the
+  beast \
+  Last thing I remember, I was running for the door \
+  I had to find the passage back to the place I was before \
+  ’Relax’ said the nightman, We are programed to receive. \
+  You can check out any time you like, but you can never leave \
+]
+#pagebreak()
 
 = Pour que tu m’aimes encore
 <pour-que-tu-maimes-encore>
+#set text(12pt)
 J’ai compris tous les mots, j’ai bien compris, merci \
 Raisonnable et nouveau, c’est ainsi par ici \
 Que les choses ont changé, que les fleurs ont fané \
@@ -300,7 +365,9 @@ On me dit qu’aujourd’hui, on me dit que les autres font ainsi \
 Je ne suis pas les autres \
 Avant que l’on s’attache, avant que l’on se gâche \
 Je veux que tu saches \
-#strong[\[Refrain\]] \
+
+#repeat_refrain()
+
 Je trouverai des langages pour chanter tes louanges \
 Je ferai nos bagages pour d’infinies vendanges \
 Les formules magiques des marabouts d’Afrique \
@@ -312,49 +379,55 @@ Vos jeux seront les nôtres, si tel est ton désir \
 Plus brillante plus belle pour une autre étincelle \
 Je me changerai en or pour que tu m’aimes encore.
 
+#set text(12pt)
 = Mon frère
 <mon-frère>
-Toi le frère que je n’ai jamais eu \
-Sais-tu si tu avais vécu \
-Ce que nous aurions fait ensemble \
-Un an après moi, tu serais né \
-Alors on n’se s’rait plus quittés \
-Comme deux amis qui se ressemblent \
-On aurait appris l’argot par cœur \
-J’aurais été ton professeur \
-A mon école buissonnière \
-Sur qu’un jour on se serait battu \
-Pour peu qu’alors on ait connu \
-Ensemble la même première \
+#columns(2, gutter: 8pt)[
+  Toi le frère que je n’ai jamais eu \
+  Sais-tu si tu avais vécu \
+  Ce que nous aurions fait ensemble \
+  Un an après moi, tu serais né \
+  Alors on n’se s’rait plus quittés \
+  Comme deux amis qui se ressemblent \
+  On aurait appris l’argot par cœur \
+  J’aurais été ton professeur \
+  A mon école buissonnière \
+  Sur qu’un jour on se serait battu \
+  Pour peu qu’alors on ait connu \
+  Ensemble la même première \
 
-#refrain[
-  Mais tu n’es pas la \
-  A qui la faute \
-  Pas à mon père \
-  Pas à ma mère \
-  Tu aurais pu chanter cela \
+  #refrain[
+    Mais tu n’es pas la \
+    A qui la faute \
+    Pas à mon père \
+    Pas à ma mère \
+    Tu aurais pu chanter cela \
+  ]
+
+  #colbreak()
+  Toi le frère que je n’ai jamais eu \
+  Si tu savais ce que j’ai bu \
+  De mes chagrins en solitaire \
+  Si tu m’avais pas fait faux bond \
+  Tu aurais fini mes chansons \
+  Je t’aurais appris à en faire \
+  Si la vie s’était comportée mieux \
+  Elle aurait divisé en deux \
+  Les paires de gants, les paires de claques \
+  Elle aurait sûrement partagé \
+  Les mots d’amour et les pavés \
+  Les filles et les coups de matraque \
+  #repeat_refrain() \
+  Toi le frère que je n’aurais jamais \
+  Je suis moins seul de t’avoir fait \
+  Pour un instant, pour une fille \
+  Je t’ai dérangé, tu me pardonnes \
+  Ici quand tout vous abandonne \
+  On se fabrique une famille \
 ]
 
-Toi le frère que je n’ai jamais eu \
-Si tu savais ce que j’ai bu \
-De mes chagrins en solitaire \
-Si tu m’avais pas fait faux bond \
-Tu aurais fini mes chansons \
-Je t’aurais appris à en faire \
-Si la vie s’était comportée mieux \
-Elle aurait divisé en deux \
-Les paires de gants, les paires de claques \
-Elle aurait sûrement partagé \
-Les mots d’amour et les pavés \
-Les filles et les coups de matraque \
-#strong[\[Refrain\]] \
-Toi le frère que je n’aurais jamais \
-Je suis moins seul de t’avoir fait \
-Pour un instant, pour une fille \
-Je t’ai dérangé, tu me pardonnes \
-Ici quand tout vous abandonne \
-On se fabrique une famille \
-
+#pagebreak()
+#set text(11pt)
 = Mon fils, ma bataille
 <mon-fils-ma-bataille>
 Ça fait longtemps que t’es partie, maintenant \
@@ -392,51 +465,53 @@ N’est rien à côté du sourire qu’il me tend \
 L’absence a ses torts \
 Que rien ne défend \
 C’est mon enfant \
-#strong[\[Refrain\] (2×)]
+#repeat_refrain(2)
 
 = Le lundi au soleil
 <le-lundi-au-soleil>
-Regarde ta montre \
-Il est déjà huit heures \
-Embrassons-nous tendrement \
-Un taxi t’emporte \
-Tu t’en vas, mon cœur \
-Parmi ces milliers de gens \
-C’est une journée idéale \
-Pour marcher dans la forêt \
-On trouverait plus normal \
-D’aller se coucher \
-Seuls dans les genêts \
+#columns(2, gutter: 8pt)[
+  Regarde ta montre \
+  Il est déjà huit heures \
+  Embrassons-nous tendrement \
+  Un taxi t’emporte \
+  Tu t’en vas, mon cœur \
+  Parmi ces milliers de gens \
+  C’est une journée idéale \
+  Pour marcher dans la forêt \
+  On trouverait plus normal \
+  D’aller se coucher \
+  Seuls dans les genêts \
 
-#refrain[
-  Le lundi au soleil \
-  C’est une chose qu’on n’aura jamais \
-  Chaque fois c’est pareil \
-  C’est quand on est derrière les carreaux \
-  Quand on travaille que le ciel est beau \
-  Qu’il doit faire beau sur les routes \
-  Le lundi au soleil \
-  Le lundi au soleil \
-  On pourrait le passer à s’aimer \
-  Le lundi au soleil \
-  On serait mieux dans l’odeur des foins \
-  On aimerait mieux cueillir le raisin \
-  Ou simplement ne rien faire \
-  Le lundi au soleil \
+  #refrain[
+    Le lundi au soleil \
+    C’est une chose qu’on n’aura jamais \
+    Chaque fois c’est pareil \
+    C’est quand on est derrière les carreaux \
+    Quand on travaille que le ciel est beau \
+    Qu’il doit faire beau sur les routes \
+    Le lundi au soleil \
+    Le lundi au soleil \
+    On pourrait le passer à s’aimer \
+    Le lundi au soleil \
+    On serait mieux dans l’odeur des foins \
+    On aimerait mieux cueillir le raisin \
+    Ou simplement ne rien faire \
+    Le lundi au soleil \
+  ]
+  #colbreak()
+  Toi, tu es à... l’autre bout \
+  De cette ville \
+  Là-bas, comme chaque jour \
+  Les dernières heures \
+  Sont les plus difficiles \
+  J’ai besoin de ton amour \
+  Et puis dans la foule au loin \
+  Je te vois, tu me souris \
+  Les néons des magasins \
+  Sont tous allumés \
+  C’est déjà la nuit \
+  #repeat_refrain()
 ]
-
-Toi, tu es à... l’autre bout \
-De cette ville \
-Là-bas, comme chaque jour \
-Les dernières heures \
-Sont les plus difficiles \
-J’ai besoin de ton amour \
-Et puis dans la foule au loin \
-Je te vois, tu me souris \
-Les néons des magasins \
-Sont tous allumés \
-C’est déjà la nuit \
-#strong[\[Refrain\]] \
 
 = It’s not because you are
 <its-not-because-you-are>
