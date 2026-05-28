@@ -21,6 +21,7 @@
 
 #pagebreak()
 #set page(
+  numbering: "1",
   footer: context [
     #set align(center)
     #set text(14pt)
@@ -39,16 +40,19 @@ Qui sommes toujours prêtes à tout, oui prêtes à tout \
 On est ici pour s’amuser, pour s’amuser, \
 Et passer une super année, super année \
 Année, année, année, année, année. \
+
 Se découvrir et s’enrichir, et s’enrichir, \
 Se retrouver avec plaisir, avec plaisir \
 Penser déjà au prochain camp, au prochain camp, \
 Qui sera bien c’est évident, c’est évident, \
 Au camp, au camp, au camp, au camp, au camp. \
+
 Animées par not’ super staff, not’ super staff, \
 On n’a pas d’autre rime en "aff", d’autre rime en "aff", \
 On ne se doit plus qu’d’apporter, plus qu’d’apporter, \
 Notre bonne humeur et notre gaité et notre gaité, \
 Gaité, gaité, gaité, gaité, gaité. \
+
 La chanson va se terminer, se terminer, \
 Mais il faut pas vous inquiéter, vous inquiéter, \
 On va vous la chanter encore, chanter encore, \
@@ -143,24 +147,30 @@ Il s’amuse bien, il n’tombe jamais dans les pièges \
 Il n’se laisse pas étourdir par les néons des manèges \
 Il vit sa vie sans s’occuper des grimaces \
 Que font autour de lui les poissons dans la nasse \
+
 Il est libre Max ! Il est libre Max ! \
 Y’en a même qui disent qu’ils l’ont vu voler \
+
 Il travaille un p’tit peu quand son corps est d’accord \
 Pour lui faut pas s’en faire, il sait doser son effort \
 Dans l’panier de crabes, il joue pas les homards \
 Il n’cherche pas à tout prix à faire des bulles dans la mare \
+
 Il r’garde autour de lui avec les yeux de l’amour \
 Avant qu’t’aies rien pu dire, il t’aime déjà au départ \
 Il n’fait pas de bruit, il n’joue pas du tambour \
 Mais la statue de marbre lui sourit dans la cour \
+
 Et bien sûr toutes les filles lui font les yeux de velours \
 Lui, pour leur faire plaisir, il leur raconte des histoires \
 Il les emmène par delà les labours \
 Chevaucher des licornes à la tombée du soir \
+
 Comme il n’a pas d’argent pour faire le grand voyageur \
 Il va parler souvent aux habitants de son cœur \
 Qu’est ce qu’ils s’racontent, c’est ça qu’il faudrait savoir \
 Pour avoir comme lui autant d’amour dans le regard \
+
 Il est libre Max ! Il est libre Max ! \
 Y’en a même qui disent qu’ils l’ont vu voler
 #pagebreak()
@@ -170,39 +180,50 @@ Y’en a même qui disent qu’ils l’ont vu voler
 <the-lion-sleeps-tonight>
 Ah-wee-ooh-wee-ooo, wee–ee-ee-ee-oo, we-um-um-a-way \
 Wee-ooh-wee-ooo, wee–ee-ee-ee-oo, we-um-um-a-way \
+
+
 Awimobawe, awimbawe, awimbawe, awimbawe, awimobawe, awimbawe, awimbawe \
+
 In the jungle the mighty jungle the lion sleeps tonight \
 In the jungle the quiet jungle the lion sleeps tonight \
+
 Woo-oo-oo-ooo, we-um-um-a-way \
 Awimobawe, awimbawe, awimbawe, awimbawe, awimobawe, awimbawe, awimbawe \
+
 Near the village the peaceful village the lion sleeps tonight \
 Near the village the quiet village the lion sleeps tonight \
+
 Woo-oo-oo-ooo, we-um-um-a-way \
 Awimobawe, awimbawe, awimbawe, awimbawe, awimobawe, awimbawe, awimbawe \
+
 Hush my darling, don’t fear my darling. The lion sleeps tonight. \
 Hush my darling, don’t fear my darling. The lion sleeps tonight \
+
 Awimobawe, awimbawe, awimbawe, awimbawe, awimobawe, awimbawe, awimbawe
 #pagebreak()
-#set text(9pt)
+#set text(8.7pt)
 
 = Tous les cris, les S.O.S.
+<tous-les-cris-les-s.o.s.>
 #columns(2, gutter: 8pt)[
-  <tous-les-cris-les-s.o.s.>
   Comme un fou va jeter à la mer \
   Des bouteilles vides et puis espère \
   Qu’on pourra lire à travers, S.O.S. écrit avec de l’air \
   Pour te dire que je me sens seul \
   Je dessine à l’encre vide, un désert \
+
   Et je cours, je me raccroche à la vie \
   Je me saoule avec le bruit des corps qui m’entourent \
   Comme des lianes nouées de tresses \
   Sans comprendre la détresse, des mots que j’envoie \
+
   Difficile d’appeler au secours \
   Quand tant de drames nous oppressent \
   Et les larmes nouées de stress \
   Étouffent un peu plus les cris d’amour \
   De ceux qui sont dans la faiblesse \
   Et dans un dernier espoir, disparaissent \
+
   Et je cours, je me raccroche à la vie \
   Je me saoule avec le bruit des corps qui m’entourent \
   Comme des lianes nouées de tresses \
@@ -225,7 +246,8 @@ Awimobawe, awimbawe, awimbawe, awimbawe, awimobawe, awimbawe, awimbawe
   Je me saoule avec le bruit des corps qui m’entourent \
   Comme des lianes nouées de tresses \
   Sans comprendre la détresse, des mots que j’envoie \
-  #strong[\[Refrain\]]
+
+  #repeat_refrain()
 ]
 
 = Personne
@@ -235,6 +257,7 @@ Awimobawe, awimbawe, awimbawe, awimbawe, awimobawe, awimbawe, awimbawe
   J’avais perdu l’amer et les déserts arides \
   Même la chaleur des pull-overs \
   J’avais perdu l’enfer, au paradis... \
+
   J’avais oublié les refrains, qui nous rappellent à l’ordre \
   Et ton foutu désordre, ce désordre essentiel \
   Mais si confidentiel, l’existence et les roses se fanent \
@@ -253,13 +276,16 @@ Awimobawe, awimbawe, awimbawe, awimbawe, awimobawe, awimbawe, awimbawe
   Mes envies insensées \
   Car ton armoire est vide, mes rêves me dévorent \
   Et mes draps sont glacés, toutes les nuits... \
+
   On a plus goût à rien, mais tant besoin de tout \
   C’qui pourrait remplacer un être indélébile \
   On cherche en vain le double, on serait prêt à tout \
   Pour revoir le jour, toutes les nuits... \
+
   #repeat_refrain(3)
 ]
 
+#pagebreak()
 #set text(7.5pt)
 = I will survive
 <i-will-survive>
@@ -268,6 +294,7 @@ Awimobawe, awimbawe, awimbawe, awimbawe, awimobawe, awimbawe, awimbawe
   Kept thinkin’ I could never live without you by my side \
   But then I spent so many nights thinkin’ how you did me wrong \
   And I grew strong and I learned how to get along \
+
   And now you’re back from outer space \
   And I find you here with that sad look upon your face \
   I should have changed that stupid lock \
@@ -312,12 +339,14 @@ Awimobawe, awimbawe, awimbawe, awimbawe, awimobawe, awimbawe, awimbawe
   ’This could be Heaven or this could be Hell’ \
   Then she lit up a candle and she showed me the way \
   There were voices down the corridor, I thought I heard them say... \
+
   Welcome to the Hotel California \
   Such a lovely place (such a lovely flace) \
   Plenty of room at the Hotel California \
   Any time of year, you can find it here \
   Her mind is Tiffany-twisted, She got the Mercedes Benz \
   She’s got a lot of pretty, pretty boys, that she calls friends \
+
   How they dance in the courtyard, sweet summer sweat. \
   Some dance to remember, some dance to forget \
   #colbreak()
@@ -326,6 +355,7 @@ Awimobawe, awimbawe, awimbawe, awimbawe, awimobawe, awimbawe, awimbawe
   And still those voices are calling from far away \
   Wake you up in the middle of the night \
   Just to hear them say... \
+
   Welcome to the Hotel California \
   Such a lovely Place (such a lovely face) \
   They livin’ it up at the Hotel California \
@@ -350,6 +380,7 @@ Raisonnable et nouveau, c’est ainsi par ici \
 Que les choses ont changé, que les fleurs ont fané \
 Que le temps d’avant, c’était le temps d’avant \
 Que si tout zappe et lasse, les amours aussi passent \
+
 Il faut que tu saches \
 
 #refrain[
@@ -364,6 +395,7 @@ Fallait pas tant donner moi je sais pas jouer \
 On me dit qu’aujourd’hui, on me dit que les autres font ainsi \
 Je ne suis pas les autres \
 Avant que l’on s’attache, avant que l’on se gâche \
+
 Je veux que tu saches \
 
 #repeat_refrain()
@@ -372,14 +404,21 @@ Je trouverai des langages pour chanter tes louanges \
 Je ferai nos bagages pour d’infinies vendanges \
 Les formules magiques des marabouts d’Afrique \
 J’les dirais sans remords pour que tu m’aimes encore \
+
 Je m’inventerai reine pour que tu me retiennes \
 Je me ferai nouvelle pour que le feu reprenne \
 Je deviendrai ces autres qui te donnent du plaisir \
 Vos jeux seront les nôtres, si tel est ton désir \
+
 Plus brillante plus belle pour une autre étincelle \
 Je me changerai en or pour que tu m’aimes encore.
 
+#pagebreak()
 #set text(12pt)
+#set par(
+  leading: 0.9em,
+  spacing: 2em,
+)
 = Mon frère
 <mon-frère>
 #columns(2, gutter: 8pt)[
@@ -416,8 +455,10 @@ Je me changerai en or pour que tu m’aimes encore.
   Les paires de gants, les paires de claques \
   Elle aurait sûrement partagé \
   Les mots d’amour et les pavés \
-  Les filles et les coups de matraque \
+  Les filles et les coups de matraque\
+
   #repeat_refrain() \
+
   Toi le frère que je n’aurais jamais \
   Je suis moins seul de t’avoir fait \
   Pour un instant, pour une fille \
@@ -428,6 +469,10 @@ Je me changerai en or pour que tu m’aimes encore.
 
 #pagebreak()
 #set text(11pt)
+#set par(
+  leading: 0.65em,
+  spacing: 1.2em,
+)
 = Mon fils, ma bataille
 <mon-fils-ma-bataille>
 Ça fait longtemps que t’es partie, maintenant \
@@ -437,6 +482,7 @@ Je serai là, sali, jugé, sur un banc \
 Par l’ombre d’un corps \
 Que j’ai serré si souvent \
 Pour un enfant \
+
 Tu leur dis que mon métier, c’est du vent \
 Qu’on ne sait pas ce que je serai \
 Dans un an \
@@ -465,8 +511,11 @@ N’est rien à côté du sourire qu’il me tend \
 L’absence a ses torts \
 Que rien ne défend \
 C’est mon enfant \
+
 #repeat_refrain(2)
 
+#pagebreak()
+#set text(11pt)
 = Le lundi au soleil
 <le-lundi-au-soleil>
 #columns(2, gutter: 8pt)[
@@ -490,6 +539,7 @@ C’est mon enfant \
     Quand on travaille que le ciel est beau \
     Qu’il doit faire beau sur les routes \
     Le lundi au soleil \
+
     Le lundi au soleil \
     On pourrait le passer à s’aimer \
     Le lundi au soleil \
@@ -510,151 +560,186 @@ C’est mon enfant \
   Les néons des magasins \
   Sont tous allumés \
   C’est déjà la nuit \
+
   #repeat_refrain()
 ]
 
+#pagebreak()
+#set text(12pt)
+#set par(
+  leading: 0.65em,
+  spacing: 1.2em,
+)
 = It’s not because you are
 <its-not-because-you-are>
-When I have rencontred you, \
-You was a jeune fille au pair, \
-And I put a spell on you, \
-And you roule a pelle to me. \
-Together we go partout \
-On my mob il was super \
-It was friday on my mind, \
-It was story d’amour. \
+#columns(2, gutter: 8pt)[
+  When I have rencontred you, \
+  You was a jeune fille au pair, \
+  And I put a spell on you, \
+  And you roule a pelle to me. \
 
-#refrain[
-  It is not because you are, \
-  I love you because I do \
-  C’est pas parc’ que you are me qu’I am you. \
+  Together we go partout \
+  On my mob il was super \
+  It was friday on my mind, \
+  It was story d’amour. \
+
+  #refrain[
+    It is not because you are, \
+    I love you because I do \
+    C’est pas parc’ que you are me qu’I am you. \
+  ]
+
+  You was really beautiful \
+  In the middle of the foule. \
+  Don’t let me misunderstood, \
+  Don’t let me sinon I boude. \
+
+  My loving, my marshmallow, \
+  You are belle and I are beau \
+  You give me all what You have \
+  I say thank you, you are bien brave. \
+
+  #repeat_refrain() \
+  #colbreak()
+  I wanted marry with you, \
+  And make love very beaucoup, \
+  To have a max of children, \
+  Just like Stone and Charden. \
+
+  But one day that must arrive, \
+  Together we disputed. \
+  For a stupid story of fric, \
+  We decide to divorced. \
+
+  #repeat_refrain() \
+
+  You chialed comme une madeleine, \
+  Not me, I have my dignité. \
+  You tell me : you are a sale mec ! \
+  I tell you : poil to the bec ! \
+
+  That’s comme ça that you thank me \
+  To have learning you english ? \
+  Eh ! That’s not you qui m’a appris, \
+  My grand father was rosbeef ! \
+
+  #repeat_refrain() \
 ]
 
-You was really beautiful \
-In the middle of the foule. \
-Don’t let me misunderstood, \
-Don’t let me sinon I boude. \
-My loving, my marshmallow, \
-You are belle and I are beau \
-You give me all what You have \
-I say thank you, you are bien brave. \
-#strong[\[Refrain\]] \
-I wanted marry with you, \
-And make love very beaucoup, \
-To have a max of children, \
-Just like Stone and Charden. \
-But one day that must arrive, \
-Together we disputed. \
-For a stupid story of fric, \
-We decide to divorced. \
-#strong[\[Refrain\]] \
-You chialed comme une madeleine, \
-Not me, I have my dignité. \
-You tell me : you are a sale mec ! \
-I tell you : poil to the bec ! \
-That’s comme ça that you thank me \
-To have learning you english ? \
-Eh ! That’s not you qui m’a appris, \
-My grand father was rosbeef ! \
-#strong[\[Refrain\]] \
-
+#pagebreak()
 = Hier encore
 <hier-encore>
-Hier encore \
-J’avais vingt ans \
-Je caressais le temps \
-Et jouais de la vie \
-Comme on joue de l’amour \
-Et je vivais la nuit \
-Sans compter sur mes jours \
-Qui fuyaient dans le temps \
-J’ai fait tant de projets \
-Qui sont restés en l’air \
-J’ai fondé tant d’espoirs \
-Qui se sont envolés \
-Que je reste perdu \
-Ne sachant où aller \
-Les yeux cherchant le ciel \
-Mais le cœur mis en terre \
-Hier encore \
-J’avais vingt ans \
-Je gaspillais le temps \
-En croyant l’arrêter \
-Et pour le retenir \
-Même le devancer \
-Je n’ai fait que courir \
-Et me suis essoufflé \
-Ignorant le passé \
-Conjuguant au futur \
-Je précédais de moi \
-Toute conversation \
-Et donnais mon avis \
-Que je voulais le bon \
-Pour critiquer le monde \
-Avec désinvolture \
-Hier encore \
-J’avais vingt ans \
-Mais j’ai perdu mon temps \
-A faire des folies \
-Qui ne me laissent au fond \
-Rien de vraiment précis \
-Que quelques rides au front \
-Et la peur de l’ennui \
-Car mes amours sont mortes \
-Avant que d’exister \
-Mes amis sont partis \
-Et ne reviendront pas \
-Par ma faute j’ai fait \
-Le vide autour de moi \
-Et j’ai gâché ma vie \
-Et mes jeunes années \
-Du meilleur et du pire \
-En jetant le meilleur \
-J’ai figé mes sourires \
-Et j’ai glacé mes pleurs \
-Où sont-ils à présent \
-A présent mes vingt ans? \
+#columns(2, gutter: 8pt)[
+  Hier encore \
+  J’avais vingt ans \
+  Je caressais le temps \
+  Et jouais de la vie \
+  Comme on joue de l’amour \
+  Et je vivais la nuit \
+  Sans compter sur mes jours \
+  Qui fuyaient dans le temps \
 
-= Foule sentimentale
-<foule-sentimentale>
-Oh la la la vie en rose \
-Le rose qu’on nous propose \
-D’avoir les quantités d’choses \
-Qui donnent envie d’autre chose \
-Aïe, on nous fait croire \
-Que le bonheur c’est d’avoir \
-De l’avoir plein nos armoires \
-Dérisions de nous dérisoires car \
+  J’ai fait tant de projets \
+  Qui sont restés en l’air \
+  J’ai fondé tant d’espoirs \
+  Qui se sont envolés \
+  Que je reste perdu \
+  Ne sachant où aller \
+  Les yeux cherchant le ciel \
+  Mais le cœur mis en terre \
 
-#refrain[
-  Foule sentimentale \
-  On a soif d’idéal \
-  Attirée par les étoiles, les voiles \
-  Que des choses pas commerciales \
-  Foule sentimentale \
-  Il faut voir comme on nous parle \
-  Comme on nous parle \
+  Hier encore \
+  J’avais vingt ans \
+  Je gaspillais le temps \
+  En croyant l’arrêter \
+  Et pour le retenir \
+  Même le devancer \
+  Je n’ai fait que courir \
+  Et me suis essoufflé \
+
+  Ignorant le passé \
+  Conjuguant au futur \
+  Je précédais de moi \
+  Toute conversation \
+  Et donnais mon avis \
+  Que je voulais le bon \
+  Pour critiquer le monde \
+  Avec désinvolture \
+
+  Hier encore \
+  J’avais vingt ans \
+  Mais j’ai perdu mon temps \
+  A faire des folies \
+  Qui ne me laissent au fond \
+  Rien de vraiment précis \
+  Que quelques rides au front \
+  Et la peur de l’ennui \
+
+  Car mes amours sont mortes \
+  Avant que d’exister \
+  Mes amis sont partis \
+  Et ne reviendront pas \
+  Par ma faute j’ai fait \
+  Le vide autour de moi \
+  Et j’ai gâché ma vie \
+  Et mes jeunes années \
+
+  Du meilleur et du pire \
+  En jetant le meilleur \
+  J’ai figé mes sourires \
+  Et j’ai glacé mes pleurs \
+  Où sont-ils à présent \
+  A présent mes vingt ans? \
 ]
 
-Il se dégage \
-De ces cartons d’emballage \
-Des gens lavés, hors d’usage \
-Et tristes et sans aucun avantage \
-On nous inflige \
-Des désirs qui nous affligent \
-On nous prend faut pas déconner dès qu’on est né \
-Pour des cons alors qu’on est \
-Des \
-#strong[\[Refrain\]] \
-On nous Claudia Schieffer \
-On nous Paul-Loup Sulitzer \
-Oh le mal qu’on peut nous faire \
-Et qui ravagea la moukère \
-Du ciel dévale \
-Un désir qui nous emballe \
-Pour demain nos enfants pâles \
-Un mieux, un rêve, un cheval \
-#strong[\[Refrain\]] \
+#pagebreak()
+= Foule sentimentale
+<foule-sentimentale>
+#columns(2, gutter: 8pt)[
+  Oh la la la vie en rose \
+  Le rose qu’on nous propose \
+  D’avoir les quantités d’choses \
+  Qui donnent envie d’autre chose \
+  Aïe, on nous fait croire \
+  Que le bonheur c’est d’avoir \
+  De l’avoir plein nos armoires \
+  Dérisions de nous dérisoires car \
+
+  #refrain[
+    Foule sentimentale \
+    On a soif d’idéal \
+    Attirée par les étoiles, les voiles \
+    Que des choses pas commerciales \
+    Foule sentimentale \
+    Il faut voir comme on nous parle \
+    Comme on nous parle \
+  ]
+  #colbreak()
+
+  Il se dégage \
+  De ces cartons d’emballage \
+  Des gens lavés, hors d’usage \
+  Et tristes et sans aucun avantage \
+  On nous inflige \
+  Des désirs qui nous affligent \
+  On nous prend faut pas déconner dès qu’on est né \
+  Pour des cons alors qu’on est \
+  Des \
+
+  #repeat_refrain() \
+
+  On nous Claudia Schieffer \
+  On nous Paul-Loup Sulitzer \
+  Oh le mal qu’on peut nous faire \
+  Et qui ravagea la moukère \
+  Du ciel dévale \
+  Un désir qui nous emballe \
+  Pour demain nos enfants pâles \
+  Un mieux, un rêve, un cheval \
+
+  #repeat_refrain() \
+]
+#pagebreak()
 
 = L’été indien
 <lété-indien>
@@ -686,237 +771,285 @@ Comme elle je me couche sur le sable \
 Et je me souviens, je me souviens des marées hautes \
 Du soleil et du bonheur qui passaient sur la mer \
 Il y a une éternité, un siècle, il y a un an \
-#strong[\[Refrain\]]
 
+#repeat_refrain()
+#pagebreak()
+
+#set text(8.9pt)
+#set par(
+  leading: 0.45em,
+  spacing: 1.0em,
+)
 = Dès que le vent soufflera
 <dès-que-le-vent-soufflera>
-C’est pas l’homme qui prend la mer \
-C’est la mer qui prend l’homme, Tatatin \
-Moi la mer elle m’a pris \
-Je m’ souviens un Mardi \
-J’ai troqué mes santiags \
-Et mon cuir un peu zone \
-Contre une paire de docksides \
-Et un vieux ciré jaune \
-J’ai déserté les crasses \
-Qui m’ disaient «~Sois prudent~» \
-La mer c’est dégueulasse \
-Les poissons baisent dedans \
+#columns(2, gutter: 8pt)[
+  C’est pas l’homme qui prend la mer \
+  C’est la mer qui prend l’homme, Tatatin \
+  Moi la mer elle m’a pris \
+  Je m’ souviens un Mardi \
+  J’ai troqué mes santiags \
+  Et mon cuir un peu zone \
+  Contre une paire de docksides \
+  Et un vieux ciré jaune \
+  J’ai déserté les crasses \
+  Qui m’ disaient «~Sois prudent~» \
+  La mer c’est dégueulasse \
+  Les poissons baisent dedans \
 
-#refrain[
+  #refrain[
+    Dès que le vent soufflera \
+    Je repartira \
+    Dès que les vents \
+    tourneront \
+    Nous nous en allerons \
+  ]
+
+  C’est pas l’homme qui prend la mer \
+  C’est la mer qui prend l’homme \
+  Moi la mer elle m’a pris \
+  Au dépourvu tans pis \
+  J’ai eu si mal au cœur \
+  Sur la mer en furie \
+  Qu’ j’ai vomi mon quatre heures \
+  Et mon minuit aussi \
+  J’ me suis cogné partout \
+  J’ai dormi dans des draps mouillés \
+  Ça m’a coûté ses sous \
+  C’est d’ la plaisance, c’est le pied \
+
+  #repeat_refrain() \
+
+  Ho ho ho ho ho hissez haut \
+  ho ho ho \
+  C’est pas l’homme quiprend la mer \
+  C’est la mer qui prend l’homme \
+  Mais elle prend pas la femme \
+  Qui préfère la campagne \
+  La mienne m’attend au port \
+  Au bout de la jetée \
+  L’horizon est bien mort \
+  Dans ses yeux délavés \
+  Assise sur une bitte \
+  D’amarrage, elle pleure \
+  Son homme qui la quitte \
+  La mer c’est son malheur \
+
+  #repeat_refrain() \
+
+  C’est pas l’homme qui prend la mer \
+  C’est la mer qui prends l’homme \
+  Moi la mer elle m’a pris \
+  Comme on prend un taxi \
+  Je ferai le tour du monde \
+  Pour voir à chaque étape \
+  Si tous les gars du monde \
+  Veulent bien m’ lâcher la grappe \
+  J’irais aux quatre vents \
+  Foutre un peu le boxon \
+  Jamais les océans \
+  N’oublieront mon prénom \
+
+  #repeat_refrain() \
+
+  Ho ho ho ho ho hissez haut \
+  ho ho ho \
+  C’est pas l’homme qui prend la mer \
+  C’est la mer qui prends l’homme \
+  Moi la mer elle m’a pris \
+  Et mon bateau aussi \
+  Il est fier mon navire \
+  Il est est beau mon bateau \
+  C’est un fameux trois mats \
+  Fin comme un oiseau #emph[\[Hissez haut\]] \
+  Tabarly, Pageot \
+  Kersauson ou Riguidel \
+  Naviguent pas sur des cageots \
+  Ni sur des poubelles \
+
+  #repeat_refrain() \
+
+  C’est pas l’homme qui prend la mer \
+  C’est la mer qui prends l’homme \
+  Moi la mer elle m’a pris \
+  Je m’ souviens un Vendredi \
+  Ne pleure plus ma mère \
+  Ton fils est matelot \
+  Ne pleure plus mon père \
+  Je vis au fil de l’eau \
+  Regardez votre enfant \
+  Il est parti marin \
+  Je sais c’est pas marrant \
+  Mais c’était mon destin \
+
+  #repeat_refrain(3) \
+
   Dès que le vent soufflera \
-  Je repartira \
+  Nous repartira \
   Dès que les vents \
   tourneront \
-  Nous nous en allerons \
+  Je me n’en allerons \
 ]
 
-C’est pas l’homme qui prend la mer \
-C’est la mer qui prend l’homme \
-Moi la mer elle m’a pris \
-Au dépourvu tans pis \
-J’ai eu si mal au cœur \
-Sur la mer en furie \
-Qu’ j’ai vomi mon quatre heures \
-Et mon minuit aussi \
-J’ me suis cogné partout \
-J’ai dormi dans des draps mouillés \
-Ça m’a coûté ses sous \
-C’est d’ la plaisance, c’est le pied \
-#strong[\[Refrain\]] \
-Ho ho ho ho ho hissez haut \
-ho ho ho \
-C’est pas l’homme quiprend la mer \
-C’est la mer qui prend l’homme \
-Mais elle prend pas la femme \
-Qui préfère la campagne \
-La mienne m’attend au port \
-Au bout de la jetée \
-L’horizon est bien mort \
-Dans ses yeux délavés \
-Assise sur une bitte \
-D’amarrage, elle pleure \
-Son homme qui la quitte \
-La mer c’est son malheur \
-#strong[\[Refrain\]] \
-C’est pas l’homme qui prend la mer \
-C’est la mer qui prends l’homme \
-Moi la mer elle m’a pris \
-Comme on prend un taxi \
-Je ferai le tour du monde \
-Pour voir à chaque étape \
-Si tous les gars du monde \
-Veulent bien m’ lâcher la grappe \
-J’irais aux quatre vents \
-Foutre un peu le boxon \
-Jamais les océans \
-N’oublieront mon prénom \
-#strong[\[Refrain\]] \
-Ho ho ho ho ho hissez haut \
-ho ho ho \
-C’est pas l’homme qui prend la mer \
-C’est la mer qui prends l’homme \
-Moi la mer elle m’a pris \
-Et mon bateau aussi \
-Il est fier mon navire \
-Il est est beau mon bateau \
-C’est un fameux trois mats \
-Fin comme un oiseau #emph[\[Hissez haut\]] \
-Tabarly, Pageot \
-Kersauson ou Riguidel \
-Naviguent pas sur des cageots \
-Ni sur des poubelles \
-#strong[\[Refrain\]] \
-C’est pas l’homme qui prend la mer \
-C’est la mer qui prends l’homme \
-Moi la mer elle m’a pris \
-Je m’ souviens un Vendredi \
-Ne pleure plus ma mère \
-Ton fils est matelot \
-Ne pleure plus mon père \
-Je vis au fil de l’eau \
-Regardez votre enfant \
-Il est parti marin \
-Je sais c’est pas marrant \
-Mais c’était mon destin \
-#strong[\[Refrain\] (x3)] \
-Dès que le vent soufflera \
-Nous repartira \
-Dès que les vents \
-tourneront \
-Je me n’en allerons \
-
+#pagebreak()
+#set text(11.6pt)
+#set par(
+  leading: 0.65em,
+  spacing: 1.2em,
+)
 = Chanson pour Pierrot
 <chanson-pour-pierrot>
-T’es pas né dans la rue \
-T’es pas né dans l’ ruisseau \
-T’es pas un enfant perdu \
-Pas un enfant d’ salaud, \
-Vu qu’ t’es né dans ma tête \
-Et qu’ tu vis dans ma peau \
-J’ai construit ta planète \
-Au fond de mon cerveau. \
+#columns(2, gutter: 8pt)[
+  T’es pas né dans la rue \
+  T’es pas né dans l’ ruisseau \
+  T’es pas un enfant perdu \
+  Pas un enfant d’ salaud, \
+  Vu qu’ t’es né dans ma tête \
+  Et qu’ tu vis dans ma peau \
+  J’ai construit ta planète \
+  Au fond de mon cerveau. \
 
-#refrain[
-  Pierrot, mon gosse, mon frangin, mon poteau, \
-  Mon copain tu m’ tiens chaud. \
-  Pierrot. \
+  #refrain[
+    Pierrot, mon gosse, mon frangin, mon poteau, \
+    Mon copain tu m’ tiens chaud. \
+    Pierrot. \
+  ]
+
+  Depuis l’ temps que j’ te rêve, \
+  Depuis l’ temps que j’ t’invente, \
+  De pas te voir j’en crève \
+  Et j’ te sens dans mon ventre. \
+  Le jour où tu ramène, \
+  J’arrête de boire : promis, \
+  Au moins toute une semaine, \
+  Ce s’ra dur, mais tant pis. \
+
+  #repeat_refrain() \
+
+  Qu’ tu sois fils de princesse, \
+  Ou qu’ tu sois fils de rien, \
+  Tu s’ras fils de tendresse, \
+  Tu s’ras pas pas orphelin. \
+  Mais j’ connais pas ta mère : \
+  Je la cherche en vain. \
+  Je connais qu’ la misère \
+  D’être tout seul sur le ch’min. \
+
+  #repeat_refrain() \
+
+  Dans un coin de ma tête \
+  Y a déjà ton trousseau : \
+  Un jean, une mobylette \
+  Une paire de Santiago. \
+  T’iras pas à l’école, \
+  J’ t’apprendrai les gros mots. \
+  On jouera au football, \
+  On ira au bistrot. \
+
+  #repeat_refrain() \
+
+  Tu t’ lav’ras pas les pognes \
+  Avant d’ venir à table. \
+  Et tu m’ trait’ras d’ivrogne \
+  Quand j’ piquerai ton cartable. \
+  J’ t’apprendrai des chansons \
+  Tu les trouveras débiles. \
+  T’auras p’t’ être bien raison \
+  Mais j’ s’rai vexé quand même. \
+
+  #repeat_refrain() \
+
+  Allez viens mon Pierrot, \
+  Tu s’ras l’ chef de ma bande. \
+  J’ te r’filerai mon couteau, \
+  J’ t’apprendrai la truande. \
+  Allez viens mon copain, \
+  J’ t’ai trouvé une maman : \
+  Tous les trois ça s’ra bien \
+  Allez viens, je t’attends. \
+
+  #repeat_refrain() \
 ]
 
-Depuis l’ temps que j’ te rêve, \
-Depuis l’ temps que j’ t’invente, \
-De pas te voir j’en crève \
-Et j’ te sens dans mon ventre. \
-Le jour où tu ramène, \
-J’arrête de boire : promis, \
-Au moins toute une semaine, \
-Ce s’ra dur, mais tant pis. \
-#strong[\[Refrain\]] \
-Qu’ tu sois fils de princesse, \
-Ou qu’ tu sois fils de rien, \
-Tu s’ras fils de tendresse, \
-Tu s’ras pas pas orphelin. \
-Mais j’ connais pas ta mère : \
-Je la cherche en vain. \
-Je connais qu’ la misère \
-D’être tout seul sur le ch’min. \
-#strong[\[Refrain\]] \
-Dans un coin de ma tête \
-Y a déjà ton trousseau : \
-Un jean, une mobylette \
-Une paire de Santiago. \
-T’iras pas à l’école, \
-J’ t’apprendrai les gros mots. \
-On jouera au football, \
-On ira au bistrot. \
-#strong[\[Refrain\]] \
-Tu t’ lav’ras pas les pognes \
-Avant d’ venir à table. \
-Et tu m’ trait’ras d’ivrogne \
-Quand j’ piquerai ton cartable. \
-J’ t’apprendrai des chansons \
-Tu les trouveras débiles. \
-T’auras p’t’ être bien raison \
-Mais j’ s’rai vexé quand même. \
-#strong[\[Refrain\]] \
-Allez viens mon Pierrot, \
-Tu s’ras l’ chef de ma bande. \
-J’ te r’filerai mon couteau, \
-J’ t’apprendrai la truande. \
-Allez viens mon copain, \
-J’ t’ai trouvé une maman : \
-Tous les trois ça s’ra bien \
-Allez viens, je t’attends. \
-#strong[\[Refrain\]] \
-
+#pagebreak()
+#set text(11.1pt)
 = La bohème
 <la-bohème>
-Je vous parle d’un temps \
-Que les moins de vingt ans \
-Ne peuvent pas connaître \
-Montmartre en ce temps-là \
-Accrochait ses lilas \
-Jusque sous nos fenêtres \
-Et si l’humble garni \
-Qui nous servait de nid \
-Ne payait pas de mine \
-C’est là qu’on s’est connu \
-Moi qui criait famine \
-Et toi qui posais nue \
-La bohème, la bohème \
-Ça voulait dire on est heureux \
-La bohème, la bohème \
-Nous ne mangions qu’un jour sur \
-deux \
-Dans les cafés voisins \
-Nous étions quelques-uns \
-Qui attendions la gloire \
-Et bien que miséreux \
-Avec le ventre creux \
-Nous ne cessions d’y croire \
-Et quand quelque bistro \
-Contre un bon repas chaud \
-Nous prenait une toile \
-Nous récitions des vers \
-Groupés autour du poêle \
-En oubliant l’hiver \
-La bohème, la bohème \
-Ça voulait dire tu es jolie \
-La bohème, la bohème \
-Et nous avions tous du génie \
-Souvent il m’arrivait \
-Devant mon chevalet \
-De passer des nuits blanches \
-Retouchant le dessin \
-De la ligne d’un sein \
-Du galbe d’une hanche \
-Et ce n’est qu’au matin \
-Qu’on s’asseyait enfin \
-Devant un café-crème \
-Epuisés mais ravis \
-Fallait-il que l’on s’aime \
-Et qu’on aime la vie \
-La bohème, la bohème \
-Ça voulait dire on a vingt ans \
-La bohème, la bohème \
-Et nous vivions de l’air du temps \
-Quand au hasard des jours \
-Je m’en vais faire un tour \
-A mon ancienne adresse \
-Je ne reconnais plus \
-Ni les murs, ni les rues \
-Qui ont vu ma jeunesse \
-En haut d’un escalier \
-Je cherche l’atelier \
-Dont plus rien ne subsiste \
-Dans son nouveau décor \
-Montmartre semble triste \
-Et les lilas sont morts \
-La bohème, la bohème \
-On était jeunes, on était fous \
-La bohème, la bohème \
-Ça ne veut plus rien dire du tout \
+#columns(2, gutter: 8pt)[
+  Je vous parle d’un temps \
+  Que les moins de vingt ans \
+  Ne peuvent pas connaître \
+  Montmartre en ce temps-là \
+  Accrochait ses lilas \
+  Jusque sous nos fenêtres \
+  Et si l’humble garni \
+  Qui nous servait de nid \
+  Ne payait pas de mine \
+  C’est là qu’on s’est connu \
+  Moi qui criait famine \
+  Et toi qui posais nue \
 
+  La bohème, la bohème \
+  Ça voulait dire on est heureux \
+  La bohème, la bohème \
+  Nous ne mangions qu’un jour sur deux \
+
+  Dans les cafés voisins \
+  Nous étions quelques-uns \
+  Qui attendions la gloire \
+  Et bien que miséreux \
+  Avec le ventre creux \
+  Nous ne cessions d’y croire \
+  Et quand quelque bistro \
+  Contre un bon repas chaud \
+  Nous prenait une toile \
+  Nous récitions des vers \
+  Groupés autour du poêle \
+  En oubliant l’hiver \
+
+  La bohème, la bohème \
+  Ça voulait dire tu es jolie \
+  La bohème, la bohème \
+  Et nous avions tous du génie \
+
+  Souvent il m’arrivait \
+  Devant mon chevalet \
+  De passer des nuits blanches \
+  Retouchant le dessin \
+  De la ligne d’un sein \
+  Du galbe d’une hanche \
+  Et ce n’est qu’au matin \
+  Qu’on s’asseyait enfin \
+  Devant un café-crème \
+  Epuisés mais ravis \
+  Fallait-il que l’on s’aime \
+  Et qu’on aime la vie \
+
+  La bohème, la bohème \
+  Ça voulait dire on a vingt ans \
+  La bohème, la bohème \
+  Et nous vivions de l’air du temps \
+
+  Quand au hasard des jours \
+  Je m’en vais faire un tour \
+  A mon ancienne adresse \
+  Je ne reconnais plus \
+  Ni les murs, ni les rues \
+  Qui ont vu ma jeunesse \
+  En haut d’un escalier \
+  Je cherche l’atelier \
+  Dont plus rien ne subsiste \
+  Dans son nouveau décor \
+  Montmartre semble triste \
+  Et les lilas sont morts \
+
+  La bohème, la bohème \
+  On était jeunes, on était fous \
+  La bohème, la bohème \
+  Ça ne veut plus rien dire du tout \
+]
+
+#pagebreak()
+#set text(12pt)
 = L’Aziza
 <laziza>
 Petite rue de Casbah au milieu de Casa \
@@ -939,7 +1072,9 @@ Laisse glisser les mauvais regards qui pèsent sur toi, \
 L’Aziza \
 Ton étoile jaune c’est ta peau tu n’as pas le choix \
 Ne la porte pas comme on porte un fardeau, ta force c’est ton droit \
-#strong[\[Refrain\]] \
+
+#repeat_refrain() \
+
 L’Aziza \
 Ta couleur et tes mots tout me va \
 Danse avec moi \
@@ -949,125 +1084,147 @@ L’Aziza, \
 Si tu crois que ta vie est la \
 Il n’y a pas de loi contre ça \
 L’Aziza, fille enfant de prophète roi \
-#strong[\[Refrain\]]
+
+#repeat_refrain()
+
+#pagebreak()
 
 = Alexandrie, Alexandra
 <alexandrie-alexandra>
-Voiles sur les filles \
-Barques sur le Nil \
-Je suis dans ta vie \
-Je suis dans tes bras \
-Alexandra Alexandrie \
-Alexandrie où l’amour danse avec la nuit \
-J’ai plus d’appétit \
-Qu’un Barracuda \
-Je boirai tout le Nil si tu n’me regarde pas \
-Je boirai tout le Nil si tu n’me retiens pas \
-Alexandrie \
-Alexandra \
-Alexandrie où l’amour danse au fond des draps \
-Ce soir j’ai de la fièvre et toi tu meurs de froid \
+#columns(2, gutter: 8pt)[
+  Voiles sur les filles \
+  Barques sur le Nil \
+  Je suis dans ta vie \
+  Je suis dans tes bras \
+  Alexandra Alexandrie \
 
-#refrain[
-  Les sirènes du port d’Alexandrie \
-  Chantent encore la même mélodie wowo \
-  La lumière du phare d’Alexandrie \
-  Fait naufrager les papillons de ma jeunesse. \
+  Alexandrie où l’amour danse avec la nuit \
+  J’ai plus d’appétit \
+  Qu’un Barracuda \
+  Je boirai tout le Nil si tu n’me regarde pas \
+  Je boirai tout le Nil si tu n’me retiens pas \
+  Alexandrie \
+  Alexandra \
+  Alexandrie où l’amour danse au fond des draps \
+  Ce soir j’ai de la fièvre et toi tu meurs de froid \
+
+  #refrain[
+    Les sirènes du port d’Alexandrie \
+    Chantent encore la même mélodie wowo \
+    La lumière du phare d’Alexandrie \
+    Fait naufrager les papillons de ma jeunesse. \
+  ]
+
+  Voiles sur les filles \
+  Barques sur le Nil \
+  Je suis dans ta vie \
+  Je suis dans tes bras \
+  Alexandra Alexandrie \
+
+  Alexandrie où tout commence et tout finit \
+  J’ai plus d’appétit \
+  Qu’un Barracuda \
+  Je te mangerai crue si tu n’me \
+  reviens pas \
+  Je te mangerai crue si tu n’me \
+  retiens pas \
+  Alexandrie \
+  Alexandra \
+
+  Alexandrie ce soir je danse dans tesdraps \
+  Je te mangerai crue si tu n’me retiens pas \
+
+  #repeat_refrain() \
+
+  Ah Aaah \
+  Ah Aaah \
+
+  Voiles sur les filles \
+  Et barques sur le Nil \
+  Alexandrie Alexandra \
+  Ce soir j’ai la fièvre et tu meurs de froid \
+  Ce soir je dans’, je dans’, je danse dans tes draps. \
 ]
 
-Voiles sur les filles \
-Barques sur le Nil \
-Je suis dans ta vie \
-Je suis dans tes bras \
-Alexandra Alexandrie \
-Alexandrie où tout commence et tout finit \
-J’ai plus d’appétit \
-Qu’un Barracuda \
-Je te mangerai crue si tu n’me \
-reviens pas \
-Je te mangerai crue si tu n’me \
-retiens pas \
-Alexandrie \
-Alexandra \
-Alexandrie ce soir je danse dans tesdraps \
-Je te mangerai crue si tu n’me retiens pas \
-#strong[\[Refrain\]] \
-Ah Aaah \
-Ah Aaah \
-Voiles sur les filles \
-Et barques sur le Nil \
-Alexandrie Alexandra \
-Ce soir j’ai la fièvre et tu meurs de froid \
-Ce soir je dans’, je dans’, je danse dans tes draps. \
-
+#pagebreak()
+#set text(11pt)
 = Le pouvoir des fleurs
 <le-pouvoir-des-fleurs>
-Je m’souviens on avait des projets \
-pour la terre \
-pour les hommes comme la nature \
-faire tomber les barrières, les murs, \
-les vieux parapets d’Arthur \
-fallait voir \
-imagine notre espoir \
-on laissait nos cœurs \
-au pouvoir des fleurs \
-jasmin, lilas, \
-c’étaient nos divisions nos soldats \
-pour changer tout ça \
+#columns(2, gutter: 8pt)[
+  Je m’souviens on avait des projets \
+  pour la terre \
+  pour les hommes comme la nature \
+  faire tomber les barrières, les murs, \
+  les vieux parapets d’Arthur \
+  fallait voir \
+  imagine notre espoir \
+  on laissait nos cœurs \
+  au pouvoir des fleurs \
+  jasmin, lilas, \
+  c’étaient nos divisions nos soldats \
+  pour changer tout ça \
 
-#refrain[
-  changer le monde \
-  changer les choses avec des \
-  bouquets de roses \
-  changer les femmes \
-  changer les hommes \
-  avec des géraniums \
+  #refrain[
+    changer le monde \
+    changer les choses avec des \
+    bouquets de roses \
+    changer les femmes \
+    changer les hommes \
+    avec des géraniums \
+  ]
+
+  je m’souviens, on avait des chansons, \
+  des paroles \
+  comme des pétales et des corolles \
+  qu’écoutait en rêvant \
+  la petite fille au tourne-disque folle \
+  le parfum \
+  imagine le parfum \
+  l’Eden, le jardin, \
+  c’était pour demain, \
+  mais demain c’est pareil, \
+  le même désir veille \
+  là tout au fond des cœurs \
+  tout changer en douceur \
+
+  changer les âmes \
+  changer les cœurs avec des bouquets \
+  de fleurs \
+  la guerre au vent \
+  l’amour devant \
+  grâce à des fleurs des champs \
+
+  ah! sur la terre \
+  il y a des choses à faire \
+  pour les enfants, les gens, les \
+  éléphants \
+  ah! tant de choses à faire \
+  moi pour \
+  te donner du cœur \
+  je t’envoie des fleurs \
+
+  tu verras qu’on aura des foulards, \
+  des chemises \
+  et que voici les couleurs vives \
+  et que même si l’amour est parti \
+  ce n’est que partie remise \
+  pour les couleurs, les accords, les \
+  parfums \
+  changer le vieux monde \
+  pour faire un jardin \
+  tu verras \
+  tu verras \
+  le pouvoir des fleurs \
+  y a une idée pop dans mon air \
+
+  #repeat_refrain(2) \
+
+  changer les... \
+  Changer les cœurs... \
 ]
 
-je m’souviens, on avait des chansons, \
-des paroles \
-comme des pétales et des corolles \
-qu’écoutait en rêvant \
-la petite fille au tourne-disque folle \
-le parfum \
-imagine le parfum \
-l’Eden, le jardin, \
-c’était pour demain, \
-mais demain c’est pareil, \
-le même désir veille \
-là tout au fond des cœurs \
-tout changer en douceur \
-changer les âmes \
-changer les cœurs avec des bouquets \
-de fleurs \
-la guerre au vent \
-l’amour devant \
-grâce à des fleurs des champs \
-ah! sur la terre \
-il y a des choses à faire \
-pour les enfants, les gens, les \
-éléphants \
-ah! tant de choses à faire \
-moi pour \
-te donner du cœur \
-je t’envoie des fleurs \
-tu verras qu’on aura des foulards, \
-des chemises \
-et que voici les couleurs vives \
-et que même si l’amour est parti \
-ce n’est que partie remise \
-pour les couleurs, les accords, les \
-parfums \
-changer le vieux monde \
-pour faire un jardin \
-tu verras \
-tu verras \
-le pouvoir des fleurs \
-y a une idée pop dans mon air \
-#strong[\[Refrain\] (x2)] \
-changer les... \
-Changer les cœurs... \
-
+#pagebreak()
+#set text(12pt)
 = Petit clown
 <petit-clown>
 Tu fais rire les gens \
@@ -1076,6 +1233,7 @@ Mais le soir en pleurant \
 Tu dois revenir sur terre \
 Tu dois redevenir petit clown de misère \
 Et tu devras reporter ton masque demain \
+
 Petit clown de misère \
 Ces yeux que je connais \
 Ont perdu de la lumière \
@@ -1084,6 +1242,7 @@ Et ce bleu pris à la mer \
 Peu à peu s’est fané \
 Et ton cœur est fatigué \
 De faire rire et d’amuser \
+
 Aujourd’hui les enfants, \
 Ne prennent plus la peine \
 Même de faire semblant \
@@ -1092,6 +1251,7 @@ Et ton cœur bien souvent \
 Aussi froid que la foule \
 Ne peut plus supporter \
 Les larmes sur ta joue \
+
 Mais un jour en riant \
 Tu quitteras cette terre \
 Mais un jour en riant \
@@ -1101,53 +1261,61 @@ Tu feras sourire les anges \
 Car tu auras trouvé \
 La paix que tu cherchais (bis)
 
+#pagebreak()
+#set text(12pt)
 = L’oiseau et l’enfant
 <loiseau-et-lenfant>
 Comme un enfant aux yeux de lumière \
 Qui voit passer au loin les oiseaux \
 Comme l’oiseau bleu survolant la Terre \
 Vois comme le monde, le monde est beau \
+
 Beau le bateau, dansant sur les vagues \
 Ivre de vie, d’amour et de vent \
 Belle la chanson naissante des vagues \
 Abandonnée au sable blanc \
+
 Blanc l’innocent, le sang du poète \
 Qui en chantant, invente l’amour \
 Pour que la vie s’habille de fête \
 Et que la nuit se change en jour \
+
 Jour d’une vie où l’aube se lève \
 Pour réveiller la ville aux yeux lourds \
 Où les matins effeuillent les rêves \
 Pour nous donner un monde d’amour \
+
 L’amour c’est toi, l’amour c’est moi \
 L’oiseau c’est toi, l’enfant c’est moi. \
+
 Comme un enfant aux yeux de lumière \
 Qui voit passer au loin les oiseaux \
 Comme l’oiseau bleu survolant la terre \
 Nous trouverons ce monde d’amour \
+
 L’amour c’est toi, l’amour c’est moi \
 L’oiseau c’est toi, l’enfant c’est moi \
+
 L’amour c’est toi, l’amour c’est moi \
 L’oiseau c’est toi, l’enfant c’est moi.
 
+#pagebreak()
+#set text(9.5pt)
+#set par(
+  leading: 0.45em,
+  spacing: 1.2em,
+)
 = Non, non, rien n’a changé
 <non-non-rien-na-changé>
-C’est l’histoire d’une trêve \
-Que j’avais demandée \
-C’est l’histoire d’un soleil \
-Que j’avais espéré \
-C’est l’histoire d’un amour \
-Que je croyais vivant \
-C’est l’histoire d’un beau jour \
-Que moi, petit enfant \
-Je voulais très heureux \
-Pour toute la planète \
-Je voulais, j’espérais \
-Que la paix règne en maître \
-En ce soir de Noël \
-Mais tout a continué \
-Mais tout a continué \
-Mais tout a continué \
+C’est l’histoire d’une trêve que j’avais demandée \
+C’est l’histoire d’un soleil que j’avais espéré \
+C’est l’histoire d’un amour gue je croyais vivant \
+C’est l’histoire d’un beau jour que moi, petit enfant \
+
+Je voulais très heureux pour toute la planète \
+Je voulais, j’espérais que la paix règne en maître \
+En ce soir de Noël mais tout a continué \
+Mais tout a continué mais tout a continué \
 
 #refrain[
   Non, non, rien n’a changé \
@@ -1157,52 +1325,46 @@ Mais tout a continué \
   Héhé! Héhé! \
 ]
 
-Et pourtant bien des gens \
-Ont chanté avec nous \
-Et pourtant bien des gens \
-Se sont mis à genoux \
-Pour prier, oui pour prier \
-Pour prier, oui pour prier \
-Mais j’ai vu tous les jours \
-A la télévision \
-Même le soir de Noël \
-Des fusils, des canons \
-J’ai pleuré, oui j’ai pleuré \
-J’ai pleuré \
+Et pourtant bien des gens ont chanté avec nous \
+Et pourtant bien des gens se sont mis à genoux \
+Pour prier, oui pour prier pour prier, oui pour prier \
+Mais j’ai vu tous les jours a la télévision \
+Même le soir de Noël des fusils, des canons \
+J’ai pleuré, oui j’ai pleuré j’ai pleuré \
 Qui pourra m’expliquer que... \
-#strong[\[Refrain\]] \
-Moi je pense à l’enfant \
-Entouré des soldats \
-Moi je pense à l’enfant \
-Qui demande pourquoi \
-Tout le temps, oui tout le temps \
-Tout le temps, oui tout le temps \
-Moi je pense à tout ça \
-Mais je ne devrais pas \
-Toutes ces choses-là \
-Ne me regardent pas \
-Et pourtant, oui et pourtant \
-Et pourtant, je chante, je chante... \
-#strong[\[Refrain\]] \
-C’est l’histoire d’une trêve \
-Que j’avais demandée \
-C’est l’histoire d’un soleil \
-Que j’avais espéré \
-C’est l’histoire d’un amour \
-Que je croyais vivant \
-C’est l’histoire d’un beau jour \
-Que moi, petit enfant \
-Je voulais très heureux \
-Pour toute la planète \
-Je voulais, j’espérais \
-Que la paix règne en maître \
-En ce soir de Noël \
-Mais tout a continué \
-Mais tout a continué \
-Mais tout a continué \
-#strong[\[Refrain\]] \
+
+#repeat_refrain() \
+
+Moi je pense à l’enfant entouré des soldats \
+Moi je pense à l’enfant qui demande pourquoi \
+Tout le temps, oui tout le temps tout le temps, oui tout le temps \
+Moi je pense à tout ça mais je ne devrais pas \
+Toutes ces choses-là ne me regardent pas \
+Et pourtant, oui et pourtant et pourtant
+Je chante, je chante... \
+
+#repeat_refrain() \
+
+C’est l’histoire d’une trêve que j’avais demandée \
+C’est l’histoire d’un soleil que j’avais espéré \
+C’est l’histoire d’un amour que je croyais vivant \
+C’est l’histoire d’un beau jour que moi, petit enfant \
+
+Je voulais très heureux pour toute la planète \
+Je voulais, j’espérais que la paix règne en maître \
+En ce soir de Noël mais tout a continué \
+Mais tout a continué mais tout a continué \
+
+#repeat_refrain() \
+
 Héhé! Héhé!
 
+#pagebreak()
+#set text(15pt)
+#set par(
+  leading: 0.65em,
+  spacing: 1.2em,
+)
 = Liberté
 <liberté>
 Ne nous parlez plus de héros \
@@ -1223,6 +1385,7 @@ Vous laissez derrière vous des mères matraquées, \
 Des lunes piétinées, des hommes qui mourraient \
 Pour la Liberté.
 
+#pagebreak()
 = Rêve ta vie
 <rêve-ta-vie>
 #refrain[
@@ -1238,7 +1401,9 @@ Rêve un ruisseau d’eau claire, près d’une clairière \
 Un boulanger qui donne son pain \
 Ferme les yeux et dis-toi que c’est arrivé \
 Il faut y croire très fort et ne pas en douter \
-#strong[\[Refrain\]] \
+
+#repeat_refrain() \
+
 Rêve un grand feu de bois, quand dehors il fait froid \
 Un ennemi qui tend la main \
 Rêve que tu cours dans les champs, c’est déjà le printemps \
@@ -1246,36 +1411,45 @@ La récolte est bonne au Pakistan \
 Ferme les yeux et dis-toi que c’est arrivé \
 Il faut y croire très fort et ne pas en douter
 
+#pagebreak()
+#set text(12pt)
 = A nos actes manqués
 <a-nos-actes-manqués>
 A tous mes loupés, mes ratés, mes vrais soleils \
 Tous les chemins qui me sont passés à côté \
 A tous mes bateaux manqués, mes mauvais sommeils \
 A tous ceux que je n’ai pas été \
+
 Aux malentendus, aux mensonges, à nos silences \
 A tous ces moments que j’avais cru partager \
 Aux phrases qu’on dit trop vite et sans qu’on les pense \
 A celles que je n’ai pas osées \
 A nos actes manqués \
+
 Aux années perdues à tenter de ressembler \
 A tous les murs que je n’aurais pas su briser \
 A tout c’que j’ai pas vu tout près, juste à côté \
 Tout c’que j’aurais mieux fait d’ignorer \
+
 Au monde, à ses douleurs qui ne me touchent plus \
 Aux notes, aux solos que je n’ai pas inventés \
 Tous ces mots que d’autres ont fait rimer et qui me tuent \
 Comme autant d’enfants jamais portés \
 A nos actes manqués \
+
 Aux amours échouées de s’être trop aimé \
 Visages et dentelles croisés justes frôlés \
 Aux trahisons que j’ai pas vraiment regrettées \
 Aux vivants qu’il aurait fallu tuer \
+
 A tout ce qui nous arrive enfin, mais trop tard \
 A tous les masques qu’il aura fallu porter \
 A nos faiblesses, à nos oublis, nos désespoirs \
 Aux peurs impossibles à échanger \
 A nos actes manqués
 
+#pagebreak()
+#set text(10pt)
 = Je te donne
 <je-te-donne>
 I can give you a voice, bred with rythms and soul \
@@ -1286,10 +1460,12 @@ Je te donne mes notes , je te donne mes mots \
 quand ta voix les emporte a ton propre tempo \
 une épaule fragile et solide a la fois \
 ce que j’imagine et ce que je crois . \
+
 Je te donne toutes mes differences, \
 tous ces défauts qui sont autant de chances \
 on sera jamais des standards, des gens bien comme il faut \
 je te donne ce que j’ai ce que je vaux \
+
 I can give you the force of my ancestral pride \
 the will to go on when i’m hurt deep inside \
 whatever the feeling, whatever the way \
@@ -1298,7 +1474,9 @@ je te donne nos doutes et notre indicible espoir \
 les questions que les routes ont laissées dans l’histoire \
 nos filles sont brunes et l’on parle un peu fort \
 et l’humour et l’amour sont nos trésors \
+
 Je te donne , donne , donne ce que je suis \
+
 I can give you my voice, bred with rythm and soul, \
 je te donne mes notes , je te donne ma voix \
 the songs that i love, and the stories i’ve told \
@@ -1308,121 +1486,152 @@ les raisons qui me portent et ce stupide espoir \
 my force is a platform that you can climb on \
 une épaule fragile et forte a la fois \
 
-#refrain(n: 5)[
-  je te donne, je te donne tout ce que je vaux , ce que je suis, mes dons,
-  \
-  mes défauts, mes plus belles chances, mes différences
-]
+#refrain(
+  [
+    je te donne, je te donne tout ce que je vaux , ce que je suis, mes dons,
+    \
+    mes défauts, mes plus belles chances, mes différences
+  ],
+  5,
+)
+
+#pagebreak()
+#set text(11pt)
 
 = C’est écrit
 <cest-écrit>
-Elle te fera changer la course des nuages, \
-Balayer tes projets, vieillir bien avant l’âge, \
-Tu la perdras cent fois dans les vapeurs des ports, \
-C’est écrit... \
-Elle rentrera blessée dans les parfums d’un autre, \
-Tu t’entendras hurler «~que les diables l’emportent~» \
-Elle voudra que tu pardonnes, et tu pardonneras, \
-C’est écrit... \
-Elle n’en sort plus de ta mémoire \
-Ni la nuit, ni le jour, \
-Elle danse derrière les brouillards \
-Et toi, tu cherches et tu cours. \
-Tu prieras jusqu’aux heures ou personne n’écoute, \
-Tu videras tous les bars qu’elle mettra sur ta route, \
-T’en passeras des nuits à regarderdehors. \
-C’est écrit... \
-Elle n’en sort plus de ta mémoire \
-Ni la nuit, ni le jour, \
-Elle danse derrière les brouillards \
-Et toi, tu cherches et tu cours, \
-Mais y a pas d’amours sans histoires. \
-Et tu rêves, tu rêves... \
-Qu’est-ce qu’elle aime, qu’est-ce qu’elle veut ? \
-Et ses ombres qu’elle te dessine autour des yeux ? \
-Qu’est-ce qu’elle aime ? \
-Qu’est-ce qu’elle rêve, qui elle voit ? \
-Et ces cordes qu’elle t’enroule autour des bras ? \
-Qu’est-ce qu’elle aime ? \
-Je t’écouterai me dire ses soupirs, ses dentelles, \
-Qu’à bien y réfléchir, elle n’est plus vraiment belle, \
-Que t’es déjà passé par des moments plus forts, \
-Depuis... \
-Elle n’en sort plus de ta mémoire \
-Ni la nuit, ni le jour, \
-Elle danse derrière les brouillards \
-Et toi, tu cherches et tu cours, \
-Mais y a pas d’amours sans histoires. \
-Oh tu rêves, tu rêves... \
-Elle n’en sort plus de ta mémoire \
-Elle danse derrière les brouillards \
-Et moi j’ai vécu la même histoire \
-Depuis je compte les jours \
-Depuis je compte les nuits
-
-= Place des grands hommes
-<place-des-grands-hommes>
-#refrain[
-  On s’était dit rendez-vous dans 10 ans \
-  Même jour, même heure, mêmes port \
-  On verra quand on aura 30 ans \
-  Sur les marches de la place des grands hommes \
+#columns(2, gutter: 8pt)[
+  Elle te fera changer la course des nuages, \
+  Balayer tes projets, vieillir bien avant l’âge, \
+  Tu la perdras cent fois dans les vapeurs des ports, \
+  C’est écrit... \
+  Elle rentrera blessée dans les parfums d’un autre, \
+  Tu t’entendras hurler «~que les diables l’emportent~» \
+  Elle voudra que tu pardonnes, et tu pardonneras, \
+  C’est écrit... \
+  Elle n’en sort plus de ta mémoire \
+  Ni la nuit, ni le jour, \
+  Elle danse derrière les brouillards \
+  Et toi, tu cherches et tu cours. \
+  Tu prieras jusqu’aux heures ou personne n’écoute, \
+  Tu videras tous les bars qu’elle mettra sur ta route, \
+  T’en passeras des nuits à regarderdehors. \
+  C’est écrit... \
+  Elle n’en sort plus de ta mémoire \
+  Ni la nuit, ni le jour, \
+  Elle danse derrière les brouillards \
+  Et toi, tu cherches et tu cours, \
+  Mais y a pas d’amours sans histoires. \
+  Et tu rêves, tu rêves... \
+  Qu’est-ce qu’elle aime, qu’est-ce qu’elle veut ? \
+  Et ses ombres qu’elle te dessine autour des yeux ? \
+  Qu’est-ce qu’elle aime ? \
+  Qu’est-ce qu’elle rêve, qui elle voit ? \
+  Et ces cordes qu’elle t’enroule autour des bras ? \
+  Qu’est-ce qu’elle aime ? \
+  Je t’écouterai me dire ses soupirs, ses dentelles, \
+  Qu’à bien y réfléchir, elle n’est plus vraiment belle, \
+  Que t’es déjà passé par des moments plus forts, \
+  Depuis... \
+  Elle n’en sort plus de ta mémoire \
+  Ni la nuit, ni le jour, \
+  Elle danse derrière les brouillards \
+  Et toi, tu cherches et tu cours, \
+  Mais y a pas d’amours sans histoires. \
+  Oh tu rêves, tu rêves... \
+  Elle n’en sort plus de ta mémoire \
+  Elle danse derrière les brouillards \
+  Et moi j’ai vécu la même histoire \
+  Depuis je compte les jours \
+  Depuis je compte les nuits
 ]
 
-Le jour est venu et moi aussi \
-Mais j’ veux pas être le premier. \
-Si on avait plus rien à se dire et si et si... \
-Je fais des détours dans le quartier. \
-C’est fou c’qu’un crépuscule de printemps. \
-Rappelle le même crépuscule qu’il y a 10 ans, \
-Trottoirs usés par les regards baissés. \
-Qu’est-ce que j’ai fait de ces années ? \
-J’ai pas flotté tranquille sur l’eau, \
-Je n’ai pas nagé le vent dans le dos. \
-Dernière ligne droite, la rue Soufflot, \
-Combien seront là 4, 3, 2, 1... 0 ? \
-#strong[\[Refrain\]] \
-J’avais eu si souvent envie d’elle. \
-La belle Séverine me regardera-t-elle ? \
-Eric voulait explorer le subconscient. \
-Remonte-t-il à la surface de temps en temps ? \
-J’ai un peu peur de traverser l’ miroir. \
-Si j’y allais pas... J’ me serais trompé d’un soir. \
-Devant une vitrine d’antiquités, \
-J’imagine les retrouvailles de l’amitié. \
-«~T’as pas changé, qu’est-ce que tudeviens ? \
-Tu t’es mariée, t’as trois gamins. \
-T’as réussi, tu fais médecin ? \
-Et toi Pascale, tu t’ marres toujourspour rien ?~» \
-#strong[\[Refrain\]] \
-J’ai connu des marées hautes et des marées basses, \
-Comme vous, comme vous, comme vous. \
-J’ai rencontré des tempêtes et des bourrasques, \
-Comme vous, comme vous, comme vous. \
-Chaque amour morte à une nouvelle a fait place, \
-Et vous, et vous...et vous ? \
-Et toi Marco qui ambitionnait simplement d’être heureux dans la vie, \
-As-tu réussi ton pari ? \
-Et toi François, et toi Laurence, et toi Marion, \
-Et toi Gégé...et toi Bruno, et toi Evelyne ? \
-#strong[\[Refrain\]] \
-Et bien c’est formidable les copains! \
-On s’est tout dit, on s’ serre la main ! \
-On ne peut pas mettre 10 ans sur table \
-Comme on étale ses lettres au Scrabble. \
-Dans la vitrine je vois le reflet \
-D’une lycéenne derrière moi. \
-Si elle part à gauche, je la suivrai. \
-Si c’est à droite... Attendez-moi ! \
-Attendez-moi ! Attendez-moi ! \
-Attendez-moi ! \
-On s’était dit rendez-vous dans 10 ans, \
-Même jour, même heure, mêmes pommes. \
-On verra quand on aura 30 ans \
-Si on est d’venus des grands hommes... \
-Des grands hommes... des grands hommes... \
-Tiens si on s’ donnait rendez-vous dans 10 ans... \
+#pagebreak()
+#set text(9.7pt)
+#set par(
+  leading: 0.55em,
+  spacing: 1.2em,
+)
+= Place des grands hommes
+<place-des-grands-hommes>
+#columns(2, gutter: 8pt)[
+  #refrain[
+    On s’était dit rendez-vous dans 10 ans \
+    Même jour, même heure, mêmes port \
+    On verra quand on aura 30 ans \
+    Sur les marches de la place des grands hommes \
+  ]
 
+  Le jour est venu et moi aussi \
+  Mais j’ veux pas être le premier. \
+  Si on avait plus rien à se dire et si et si... \
+
+  Je fais des détours dans le quartier. \
+  C’est fou c’qu’un crépuscule de printemps. \
+  Rappelle le même crépuscule qu’il y a 10 ans, \
+  Trottoirs usés par les regards baissés. \
+  Qu’est-ce que j’ai fait de ces années ? \
+
+  J’ai pas flotté tranquille sur l’eau, \
+  Je n’ai pas nagé le vent dans le dos. \
+  Dernière ligne droite, la rue Soufflot, \
+  Combien seront là 4, 3, 2, 1... 0 ? \
+
+  #repeat_refrain() \
+
+  J’avais eu si souvent envie d’elle. \
+  La belle Séverine me regardera-t-elle ? \
+  Eric voulait explorer le subconscient. \
+  Remonte-t-il à la surface de temps en temps ? \
+  J’ai un peu peur de traverser l’ miroir. \
+  Si j’y allais pas... J’ me serais trompé d’un soir. \
+  Devant une vitrine d’antiquités, \
+  J’imagine les retrouvailles de l’amitié. \
+  «~T’as pas changé, qu’est-ce que tudeviens ? \
+  Tu t’es mariée, t’as trois gamins. \
+  T’as réussi, tu fais médecin ? \
+  Et toi Pascale, tu t’ marres toujourspour rien ?~» \
+
+  #repeat_refrain() \
+
+  J’ai connu des marées hautes et des marées basses, \
+  Comme vous, comme vous, comme vous. \
+  J’ai rencontré des tempêtes et des bourrasques, \
+  Comme vous, comme vous, comme vous. \
+  Chaque amour morte à une nouvelle a fait place, \
+  Et vous, et vous...et vous ? \
+  Et toi Marco qui ambitionnait simplement d’être heureux dans la vie, \
+  As-tu réussi ton pari ? \
+  Et toi François, et toi Laurence, et toi Marion, \
+  Et toi Gégé...et toi Bruno, et toi Evelyne ? \
+
+  #repeat_refrain() \
+
+  Et bien c’est formidable les copains! \
+  On s’est tout dit, on s’ serre la main ! \
+  On ne peut pas mettre 10 ans sur table \
+  Comme on étale ses lettres au Scrabble. \
+  Dans la vitrine je vois le reflet \
+
+  D’une lycéenne derrière moi. \
+  Si elle part à gauche, je la suivrai. \
+  Si c’est à droite... Attendez-moi ! \
+  Attendez-moi ! Attendez-moi ! \
+  Attendez-moi ! \
+
+  On s’était dit rendez-vous dans 10 ans, \
+  Même jour, même heure, mêmes pommes. \
+  On verra quand on aura 30 ans \
+  Si on est d’venus des grands hommes... \
+  Des grands hommes... des grands hommes... \
+
+  Tiens si on s’ donnait rendez-vous dans 10 ans... \
+]
+#pagebreak()
+#set par(
+  leading: 0.55em,
+  spacing: 1.2em,
+)
 = Mistral gagnant
 <mistral-gagnant>
 A m’asseoir sur un banc cinq minutes avec toi \
@@ -1433,10 +1642,12 @@ Pis donner à bouffer à des pigeons idiots \
 Leur filer des coups d’ pieds pour de faux \
 Et entendre ton rire qui lézarde les murs \
 Qui sait surtout guérir mes blessures \
+
 Te raconter un peu comment j’étais mino \
 Les bonbecs fabuleux, qu’on piquait chez l’ marchand \
 Car-en-sac et Minto, caramel à un franc \
 Et les mistrals gagnants \
+
 Par marcher sous la pluie cinq minutes avec toi \
 Et regarder la vie tant qu’y en a \
 Te raconter la Terre en te bouffant des yeux \
@@ -1449,6 +1660,7 @@ Te raconter surtout les carambars d’antan et les cocos bohères \
 Et les vrais roudoudous qui nous coupaient les lèvres \
 Et nous niquaient les dents \
 Et les mistrals gagnants \
+
 A m’asseoir sur un banc cinq minutes avec toi \
 Et r’garder le soleil qui s’en va \
 Te parler du bon temps qui est mort et je m’en fous \
@@ -1457,6 +1669,7 @@ Que si moi je suis barge, ce n’est que de tes yeux \
 Car ils ont l’avantage d’être deux \
 Et entendre ton rire s’envoler aussi haut \
 Que s’envolent les cris des oiseaux \
+
 Te raconter enfin qu’il faut aimer la vie \
 Et l’aimer même si \
 le temps est assassin \
@@ -1464,312 +1677,381 @@ Et emporte avec lui les rires des enfants \
 Et les mistrals gagnants \
 Et les mistrals gagnants
 
+#pagebreak()
+#set text(8.8pt)
+#set par(
+  leading: 0.54em,
+  spacing: 1.2em,
+)
 = La bille de verre
 <la-bille-de-verre>
-Un bateau de bois \
-Emporte papa \
-Tout au bout d’la terre. \
-Il verra la Chine \
-Et les îles opalines \
-Où les gens vivent nus. \
-Moi, j’deviendrai un homme, \
-Mes notes seront bonnes, \
-Il sera fier de moi. \
-Il me rapportera une bille de verre \
-Et un ver à soie (bis). \
-Si la nuit m’fait peur \
-J’lui dirai que mon cœur \
-Est au bout d’la terre \
-Où les enfants des rois \
-Ont des sabres qui coupent \
-Et des chevaux vivants. \
-Moi, je ferai l’grand, \
-Je défendrai maman \
-Contre les voleurs. \
-Il me rapportera une bille de verre \
-Et un ver à soie (bis). \
+#columns(2, gutter: 8pt)[
+  Un bateau de bois \
+  Emporte papa \
+  Tout au bout d’la terre. \
+  Il verra la Chine \
+  Et les îles opalines \
+  Où les gens vivent nus. \
+  Moi, j’deviendrai un homme, \
+  Mes notes seront bonnes, \
+  Il sera fier de moi. \
+  Il me rapportera une bille de verre \
+  Et un ver à soie (bis). \
 
-Plus tard il y aura les caresses des femmes, \
-Les secrets qui planent \
-Aux oreilles des grands, \
-Les départs à minuit, les tempêtes, les \
-drames, \
-L’océan... \
-Et quelqu’un qui attend une bille de verre \
-Et un ver à soie (bis). \
-Un bateau de bois \
-Emporte papa \
-Tout au bout d’la terre. \
-Il chass’ra le fauve \
-Au fond des jungles mauves \
-Où le jour n’entre pas. \
-Je cach’rai ma peine. \
-J’attendrai qu’il revienne. \
-Il sera fier de moi. \
-Il me rapportera une bille de verre \
-Et un ver à soie (bis). \
-Il me rapportera une bille de verre... (x2) \
-Il me rapportera une bille de verre \
-Et un ver à soie. \
+  Si la nuit m’fait peur \
+  J’lui dirai que mon cœur \
+  Est au bout d’la terre \
+  Où les enfants des rois \
+  Ont des sabres qui coupent \
+  Et des chevaux vivants. \
+  Moi, je ferai l’grand, \
+  Je défendrai maman \
+  Contre les voleurs. \
+  Il me rapportera une bille de verre \
+  Et un ver à soie (bis). \
 
+  #colbreak()
+  Plus tard il y aura les caresses des femmes, \
+  Les secrets qui planent \
+  Aux oreilles des grands, \
+  Les départs à minuit, les tempêtes, les \
+  drames, \
+  L’océan... \
+  Et quelqu’un qui attend une bille de verre \
+  Et un ver à soie (bis). \
+
+  Un bateau de bois \
+  Emporte papa \
+  Tout au bout d’la terre. \
+  Il chass’ra le fauve \
+  Au fond des jungles mauves \
+  Où le jour n’entre pas. \
+  Je cach’rai ma peine. \
+  J’attendrai qu’il revienne. \
+  Il sera fier de moi. \
+  Il me rapportera une bille de verre \
+  Et un ver à soie (bis). \
+
+  Il me rapportera une bille de verre... (x2) \
+  Il me rapportera une bille de verre \
+  Et un ver à soie. \
+]
 = Il changeait la vie
 <il-changeait-la-vie>
-C’était un cordonnier, sans rien d’particulier \
-Dans un village dont le nom m’a échappé \
-Il faisait des souliers si jolis, si légers \
-Que nos vies semblaient un peu moins lourdes à porter \
-Il y mettait du temps, du talent et du cœur \
-Ainsi passait sa vie au milieu de nos heures \
-Et loin des beaux discours, des grandes théories \
-A sa tâche chaque jour, on pouvait dire de lui \
-Il changeait la vie \
-C’était un professeur, un simple professeur \
-Qui pensait que savoir était un grand trésor \
-Que tous les moins que rien n’avaient pour s’en sortir \
-Que l’école et le droit qu’a chacun de s’instruire \
-Il y mettait du temps, du talent et du cœur \
-Ainsi passait sa vie au milieu de nos heures \
-Et loin des beaux discours, des grandes théories \
-A sa tâche chaque jour, on pouvait dire de lui \
-Il changeait la vie \
-C’était un p’tit bonhomme, rien qu’un tout p’tit bonhomme \
-Malhabile et rêveur, un peu loupé en somme \
-Se croyait inutile, banni des autres hommes \
-Il pleurait sur son saxophone \
-Il y mit tant de temps, de larmes et de douleur \
-Les rêves de sa vie, les prisons de son cœur \
-Et loin des beaux discours, des grandes théories \
-Inspiré jour après jour de son souffle et de ses cris \
-Il changeait la vie (x5)
+#columns(2, gutter: 8pt)[
+  C’était un cordonnier, sans rien d’particulier \
+  Dans un village dont le nom m’a échappé \
+  Il faisait des souliers si jolis, si légers \
+  Que nos vies semblaient un peu moins lourdes à porter \
 
+  Il y mettait du temps, du talent et du cœur \
+  Ainsi passait sa vie au milieu de nos heures \
+  Et loin des beaux discours, des grandes théories \
+  A sa tâche chaque jour, on pouvait dire de lui \
+  Il changeait la vie \
+
+  C’était un professeur, un simple professeur \
+  Qui pensait que savoir était un grand trésor \
+  Que tous les moins que rien n’avaient pour s’en sortir \
+  Que l’école et le droit qu’a chacun de s’instruire \
+
+  Il y mettait du temps, du talent et du cœur \
+  Ainsi passait sa vie au milieu de nos heures \
+  Et loin des beaux discours, des grandes théories \
+  A sa tâche chaque jour, on pouvait dire de lui \
+  Il changeait la vie \
+
+  C’était un p’tit bonhomme, rien qu’un tout p’tit bonhomme \
+  Malhabile et rêveur, un peu loupé en somme \
+  Se croyait inutile, banni des autres hommes \
+
+  Il pleurait sur son saxophone \
+
+  Il y mit tant de temps, de larmes et de douleur \
+  Les rêves de sa vie, les prisons de son cœur \
+  Et loin des beaux discours, des grandes théories \
+  Inspiré jour après jour de son souffle et de ses cris \
+  Il changeait la vie (x5)
+]
+
+#pagebreak()
+#set text(9.4pt)
+#set par(
+  leading: 0.59em,
+  spacing: 1.2em,
+)
 = Cœur de loup
 <cœur-de-loup>
-Cœur de Loup Pas le temps de tout lui dire \
-Pas le temps de tout lui taire \
-Juste assez pour tenter la satyre \
-Qu’elle sente que j’veux lui plaire \
-Sous le pli de l’emballage \
-La lubie de faufiler \
-La folie de rester sage si elle veut \
-De n’pas l’embrasser \
-Quand d’un coup d’aile se déplume \
-Mon œillet luit fait de l’œil \
-Même hululer sous la lune ne m’fait pas peur \
-Pourvu qu’elle veuille \
-Je n’ai qu’une seule envie \
-Me laisser tenter \
-La victime est si belle \
-Et le crime est si gai \
-Cœur de loup, peur du lit, séduis-là, sans délais \
-Suis le swing, c’est le coup de gong du kingbong \
-Pas besoin de beaucoup \
-Mais pas de peu non plus \
-Par le biais d’un billet fou \
-Lui faire savoir que j’n’en peux plus \
-C’est le cas du kamikaze \
-C’est l’ABC du condamné \
-Le légionnaire qui veut l’avantage des voyages \
-Sans s’engager \
-Elle est si frêle esquive \
-Sous mes bordées d’amour \
-Je suppose qu’elle suppose \
-Que je l’aimerai toujours \
-Le doigts sur l’aventure \
-Le pied dans l’inventaire \
-Même si l’affaire n’est pas sûre \
-Ne pas s’enfuir \
-Ne pas s’en faire \
-Je n’ai qu’une seule envie \
-Me laisser tenter \
-La victime est si belle \
-Et le crime est si gai \
-Pas le temps de mentir \
-Ni de quitter la scène \
-YEP ! Elle aura beau rougir \
-De toute façon il faut qu’elle m’aime \
-Je n’ai qu’un seule envie \
-Me laisser tenter…
+#columns(2, gutter: 8pt)[
+  Cœur de Loup Pas le temps de tout lui dire \
+  Pas le temps de tout lui taire \
+  Juste assez pour tenter la satyre \
+  Qu’elle sente que j’veux lui plaire \
+  Sous le pli de l’emballage \
+  La lubie de faufiler \
+  La folie de rester sage si elle veut \
+  De n’pas l’embrasser \
+  Quand d’un coup d’aile se déplume \
+  Mon œillet luit fait de l’œil \
+  Même hululer sous la lune ne m’fait pas peur \
+  Pourvu qu’elle veuille \
+
+  Je n’ai qu’une seule envie \
+  Me laisser tenter \
+  La victime est si belle \
+  Et le crime est si gai \
+  Cœur de loup, peur du lit, séduis-là, sans délais \
+  Suis le swing, c’est le coup de gong du kingbong \
+
+  Pas besoin de beaucoup \
+  Mais pas de peu non plus \
+  Par le biais d’un billet fou \
+  #colbreak()
+  Lui faire savoir que j’n’en peux plus \
+  C’est le cas du kamikaze \
+  C’est l’ABC du condamné \
+  Le légionnaire qui veut l’avantage des voyages \
+  Sans s’engager \
+  Elle est si frêle esquive \
+  Sous mes bordées d’amour \
+  Je suppose qu’elle suppose \
+  Que je l’aimerai toujours \
+  Le doigts sur l’aventure \
+  Le pied dans l’inventaire \
+  Même si l’affaire n’est pas sûre \
+  Ne pas s’enfuir \
+  Ne pas s’en faire \
+
+  Je n’ai qu’une seule envie \
+  Me laisser tenter \
+  La victime est si belle \
+  Et le crime est si gai \
+
+  Pas le temps de mentir \
+  Ni de quitter la scène \
+  YEP ! Elle aura beau rougir \
+  De toute façon il faut qu’elle m’aime \
+  Je n’ai qu’un seule envie \
+  Me laisser tenter…
+]
 
 = L’encre de tes yeux
 <lencre-de-tes-yeux>
-Puisqu’on ne vivra jamais tous les deux \
-Puisqu’on est fou, puisqu’on est seuls \
-Puisqu’ils sont si nombreux \
-Même la morale parle pour eux \
-J’aimerais quand même te dire \
-Tout ce que j’ai pu écrire \
-Je l’ai puisé à l’encre de tes yeux. \
-Je n’avais pas vu que tu portais des chaînes \
-À trop vouloir te regarder, \
-J’en oubliais les miennes \
-On rêvait de Venise et de liberté \
-J’aimerais quand même te dire \
-Tout ce que j’ai pu écrire \
-C’est ton sourire qui me l’a dicté. \
-Tu viendras longtemps marcher dans mes rêves \
-Tu viendras toujours du côté \
-Où le soleil se lève \
-Et si malgré ça j’arrive à t’oublier \
-J’aimerais quand même te dire \
-Tout ce que j’ai pu écrire \
-Aura longtemps le parfum des regrets. \
+#columns(2, gutter: 8pt)[
+  Puisqu’on ne vivra jamais tous les deux \
+  Puisqu’on est fou, puisqu’on est seuls \
+  Puisqu’ils sont si nombreux \
+  Même la morale parle pour eux \
 
+  J’aimerais quand même te dire \
+  Tout ce que j’ai pu écrire \
+  Je l’ai puisé à l’encre de tes yeux. \
+
+  Je n’avais pas vu que tu portais des chaînes \
+  À trop vouloir te regarder, \
+  J’en oubliais les miennes \
+  On rêvait de Venise et de liberté \
+  J’aimerais quand même te dire \
+  Tout ce que j’ai pu écrire \
+  C’est ton sourire qui me l’a dicté. \
+
+  Tu viendras longtemps marcher dans mes rêves \
+  Tu viendras toujours du côté \
+  Où le soleil se lève \
+  Et si malgré ça j’arrive à t’oublier \
+  J’aimerais quand même te dire \
+  Tout ce que j’ai pu écrire \
+  Aura longtemps le parfum des regrets. \
+]
+
+#pagebreak()
+#set text(11pt)
+#set par(
+  leading: 0.65em,
+  spacing: 1.2em,
+)
 = Étoile des neiges
 <étoile-des-neiges>
-Dans un coin perdu de montagne \
-Un tout petit savoyard \
-Chantait son amour \
-Dans le calme du soir \
-Près de sa bergère \
-Au doux regard. \
+#columns(2, gutter: 8pt)[
+  Dans un coin perdu de montagne \
+  Un tout petit savoyard \
+  Chantait son amour \
+  Dans le calme du soir \
+  Près de sa bergère \
+  Au doux regard. \
 
-#refrain[
-  Étoile des neiges \
-  Mon coeur amoureux \
-  S’est pris au piège \
-  De tes grands yeux \
-  Je te donne en gage \
-  Cette croix d’argent \
-  Et de t’aimer toute ma vie \
-  Je fais serment. \
+  #refrain[
+    Étoile des neiges \
+    Mon coeur amoureux \
+    S’est pris au piège \
+    De tes grands yeux \
+    Je te donne en gage \
+    Cette croix d’argent \
+    Et de t’aimer toute ma vie \
+    Je fais serment. \
+  ]
+
+  Hélas soupirait la bergère \
+  Que répondront nos parents \
+  Comment ferons-nous \
+  Nous n’avons pas d’argent \
+  Pour nous marier \
+  Dès le printemps ? \
+
+  #refrain[
+    Étoile des neiges \
+    Sèche tes beaux yeux \
+    Le ciel protège \
+    Les amoureux \
+    Je pars en voyage \
+    Pour qu’à mon retour \
+    À tout jamais plus rien \
+    N’empêche notre amour. \
+  ]
+
+  Alors il partit vers la ville \
+  Et ramoneur il se fit \
+  Sur tous les chemins \
+  Dans le vent et la pluie \
+  Comme un petit diable \
+  Noir de suie. \
+
+  #refrain[
+    Étoile des neiges \
+    Sèche tes beaux yeux \
+    Le ciel protège \
+    Ton amoureux \
+    Ne perds pas courage \
+    Il te reviendra \
+    Et tu seras bientôt \
+    Encore entre ses bras. \
+  ]
+
+  Et quand les beaux jours refleurirent \
+  Il s’en revint au hameau \
+  Et sa fiancée \
+  L’attendait tout là-haut \
+  Parmi les clochettes \
+  Des troupeaux. \
+
+  #refrain[
+    Étoile des neiges \
+    Tes garçons d’honneur \
+    Vont en cortège \
+    Portant des fleurs \
+    Par un mariage \
+    Finit mon histoire \
+    De la bergère et de son petit savoyard \
+  ]
 ]
 
-Hélas soupirait la bergère \
-Que répondront nos parents \
-Comment ferons-nous \
-Nous n’avons pas d’argent \
-Pour nous marier \
-Dès le printemps ? \
-
-#refrain[
-  Étoile des neiges \
-  Sèche tes beaux yeux \
-  Le ciel protège \
-  Les amoureux \
-  Je pars en voyage \
-  Pour qu’à mon retour \
-  À tout jamais plus rien \
-  N’empêche notre amour. \
-]
-
-Alors il partit vers la ville \
-Et ramoneur il se fit \
-Sur tous les chemins \
-Dans le vent et la pluie \
-Comme un petit diable \
-Noir de suie. \
-
-#refrain[
-  Étoile des neiges \
-  Sèche tes beaux yeux \
-  Le ciel protège \
-  Ton amoureux \
-  Ne perds pas courage \
-  Il te reviendra \
-  Et tu seras bientôt \
-  Encore entre ses bras. \
-]
-
-Et quand les beaux jours refleurirent \
-Il s’en revint au hameau \
-Et sa fiancée \
-L’attendait tout là-haut \
-Parmi les clochettes \
-Des troupeaux. \
-
-#refrain[
-  Étoile des neiges \
-  Tes garçons d’honneur \
-  Vont en cortège \
-  Portant des fleurs \
-  Par un mariage \
-  Finit mon histoire \
-  De la bergère et de son petit savoyard \
-]
-
+#pagebreak()
+#set text(9pt)
+#set par(
+  leading: 0.55em,
+  spacing: 1.2em,
+)
 = Mon mec à moi
 <mon-mec-à-moi>
-Il joue avec mon cœur, \
-il triche avec ma vie, \
-il dit des mots menteurs, \
-et moi, je crois tout c’ qu’il dit \
-Les chansons qu’il me chante, \
-les rêves qu’il fait pour deux, \
-c’est comme les bonbons menthe, \
-ça fait du bien quand il pleut. \
-Je m’ raconte des histoires, \
-en écoutant sa voix, \
-c’est pas vrai ces histoires, \
-mais moi j’y crois. \
-Mon mec à moi \
-il me parle d’aventures, \
-et quand elles brillent dans ses yeux, \
-j’ pourrais y passer la nuit \
-Il parle d’amour \
-comme il parle des voitures \
-et moi j’l’suis où il veut, \
-tellement je crois tout c’qu’il m’dit \
-tellement je crois tout c’qu’il m’dit \
-Oh oui \
-Mon mec à moi. \
-Sa façon d’être à moi \
-sans jamais dire “ je t’aime “, \
-c’est rien qu’du cinéma, \
-mais c’est du pareil au même. \
-Ce film en noir et blanc \
-qu’il m’a joué deux cents fois, \
-c’est Gabin et Morgan \
-enfin, ça ressemble à tout ça \
-Je m’raconte des histoires, \
-des scénarios chinois, \
-c’est pas vrai ces histoires, \
-mais moi j’y crois \
-Mon mec à moi \
-il me parle d’aventures \
-et quand elles brillent dans ses yeux, \
-j’pourrais y passer la nuit \
-Il parle d’amour \
-comme il parle des voitures, \
-et moi j’l’suis où il veut, \
-tellement je crois tout c’qu’il m’dit \
-tellement je crois tout c’qu’il m’dit \
-Oh oui \
+#columns(2, gutter: 8pt)[
+  Il joue avec mon cœur, \
+  il triche avec ma vie, \
+  il dit des mots menteurs, \
+  et moi, je crois tout c’ qu’il dit \
+  Les chansons qu’il me chante, \
+  les rêves qu’il fait pour deux, \
+  c’est comme les bonbons menthe, \
+  ça fait du bien quand il pleut. \
+  Je m’ raconte des histoires, \
+  en écoutant sa voix, \
+  c’est pas vrai ces histoires, \
+  mais moi j’y crois. \
+
+  Mon mec à moi \
+  il me parle d’aventures, \
+  et quand elles brillent dans ses yeux, \
+  j’ pourrais y passer la nuit \
+  Il parle d’amour \
+  comme il parle des voitures \
+  et moi j’l’suis où il veut, \
+  tellement je crois tout c’qu’il m’dit \
+  tellement je crois tout c’qu’il m’dit \
+  Oh oui \
+  Mon mec à moi. \
+
+  #colbreak()
+  Sa façon d’être à moi \
+  sans jamais dire “ je t’aime “, \
+  c’est rien qu’du cinéma, \
+  mais c’est du pareil au même. \
+  Ce film en noir et blanc \
+  qu’il m’a joué deux cents fois, \
+  c’est Gabin et Morgan \
+  enfin, ça ressemble à tout ça \
+  Je m’raconte des histoires, \
+  des scénarios chinois, \
+  c’est pas vrai ces histoires, \
+  mais moi j’y crois \
+
+  Mon mec à moi \
+  il me parle d’aventures \
+  et quand elles brillent dans ses yeux, \
+  j’pourrais y passer la nuit \
+  Il parle d’amour \
+  comme il parle des voitures, \
+  et moi j’l’suis où il veut, \
+  tellement je crois tout c’qu’il m’dit \
+  tellement je crois tout c’qu’il m’dit \
+  Oh oui \
+]
 
 = Elle est d’ailleurs
 <elle-est-dailleurs>
-Elle a de ces lumières au fond des yeux \
-Qui rendent aveugles ou amoureux \
-Elle a des gestes de parfum \
-Qui rendent bête ou rendent chien \
-Et si lointaine dans son cœur \
-Pour moi c’est sûr, elle est d’ailleurs \
-Elle a de ces longues mains de dentellière \
-A damner l’âme d’un Werner \
-Cette silhouette vénitienne \
-Quand elle se penche à ses persiennes \
-Ce geste je le sais par cœur \
-Pour moi c’est sûr, elle est d’ailleurs \
-Et moi je suis tombé en esclavage \
-De ce sourire, de ce visage \
-Et je lui dis emmène moi \
-Et moi je suis prêt à tous les sillages \
-Vers d’autres lieux, d’autres rivages \
-Mais elle passe et ne répond pas \
-Et moi je suis tombé en esclavage \
-De ce sourire, de ce visage \
-Et je lui dis emmène moi \
-Et moi je suis prêt à tous les sillages \
-Vers d’autres lieux, d’autres rivages \
-Mais elle passe et ne répond pas \
-Les mots pour elle sont sans valeur \
-Pour moi c’est sur, elle est d’ailleurs \
-Elle a de ces manières de ne rien dire \
-Qui parlent au bout des souvenirs \
-Cette manière de traverser \
-Quand elle s’en va chez le boucher \
-Quand elle arrive à ma hauteur \
-Pour moi c’est sûr, elle est d’ailleurs \
+#columns(2, gutter: 8pt)[
+  Elle a de ces lumières au fond des yeux \
+  Qui rendent aveugles ou amoureux \
+  Elle a des gestes de parfum \
+  Qui rendent bête ou rendent chien \
+  Et si lointaine dans son cœur \
+  Pour moi c’est sûr, elle est d’ailleurs \
 
+  Elle a de ces longues mains de dentellière \
+  A damner l’âme d’un Werner \
+  Cette silhouette vénitienne \
+  Quand elle se penche à ses persiennes \
+  Ce geste je le sais par cœur \
+  Pour moi c’est sûr, elle est d’ailleurs \
+
+  Et moi je suis tombé en esclavage \
+  De ce sourire, de ce visage \
+  Et je lui dis emmène moi \
+  Et moi je suis prêt à tous les sillages \
+  Vers d’autres lieux, d’autres rivages \
+  Mais elle passe et ne répond pas \
+
+  Et moi je suis tombé en esclavage \
+  De ce sourire, de ce visage \
+  Et je lui dis emmène moi \
+  Et moi je suis prêt à tous les sillages \
+  Vers d’autres lieux, d’autres rivages \
+  Mais elle passe et ne répond pas \
+  Les mots pour elle sont sans valeur \
+  Pour moi c’est sur, elle est d’ailleurs \
+
+  Elle a de ces manières de ne rien dire \
+  Qui parlent au bout des souvenirs \
+  Cette manière de traverser \
+  Quand elle s’en va chez le boucher \
+  Quand elle arrive à ma hauteur \
+  Pour moi c’est sûr, elle est d’ailleurs \
+]
+
+#pagebreak()
+#set text(10pt)
+#set par(
+  leading: 0.40em,
+  spacing: 1.0em,
+)
 = Belle Ile-en-Mer
 <belle-ile-en-mer>
 #refrain[
@@ -1785,14 +2067,18 @@ Manque d’indulgence par les différences que j’ai \
 Café Léger au lait mélangé \
 Séparé petit enfant tout comme vous, je connais ce sentiment \
 De solitude et d’isolement \
-#strong[\[Refrain\]] \
+
+#repeat_refrain() \
+
 Comme laissé tout seul en mer, \
 Corsaire sur terre \
 Un peu solitaire l’amour je l’voyais passer, \
 Ohé Ohé, je l’voyais passer \
 Séparé petit enfant tout comme vous je connais ce sentiment \
 De solitude et d’isolement \
-#strong[\[Refrain\]] \
+
+#repeat_refrain() \
+
 Karukera, Calédonie, Ouessant, Vierges des mers, toutes seules tout
 l’temps Vous c’est l’eau, c’est l’eau qui vous sépare Et vous laisse à
 part Oh oh... \
@@ -1804,165 +2090,206 @@ Il y a des ruisseaux, des clairières, pas de quoi en faire un plat de ce
 coin \
 Il y a des odeurs de menthe et des cheminées et des feux dedans \
 Il y a des jours et des nuits lentes et l’histoire absente banalement \
+
 Et loin de tout, loin de moi \
 C’est là que tu te sens chez toi \
 De là que tu pars, où tu reviens chaque fois \
 Et où tout finira \
+
 Il y a des enfants, des grand-mères \
 Une petite église et un grand café \
 Il y a au fond du cimetière des joies, des misères et du temps passé \
 Il y a une petite école et des bancs de bois, tout comme autrefois \
 Il y a des images qui collent au bout de tes doigts \
 Et ton cœur qui bat \
+
 Et loin de tout, loin de moi \
 C’est là que tu te sens chez toi \
 De là que tu pars, où tu reviens chaque fois \
 Et où tout finira \
 
+#pagebreak()
+#set text(10pt)
+#set par(
+  leading: 0.65em,
+  spacing: 1.2em,
+)
 = Marchand de cailloux
 <marchand-de-cailloux>
-Dis Papa, quand c’est qu’y passe \
-Le marchand d’cailloux \
-J’en voudrais dans mes godasses \
-A la place des joujoux \
-Avec mes copines en classe \
-On comprend pas tout \
-Pourquoi des gros dégueulasses \
-Font du mal partout \
-Pourquoi les enfants de Belfast \
-Et d’tous les ghettos \
-Quand y balancent un caillasse \
-On leur fait la peau \
-J’croyais qu’David et Goliath \
-Ça marchait encore \
-Les plus p’tits pouvaient s’débattrent \
-Sans être les plus morts \
-Dis Papa, quand c’est qu’y passe \
-Le marchand d’liberté \
-Il en a oublié un max \
-En f’sant sa tournée \
-Pourquoi des mômes crèvent de faim \
-Pendant qu’on étouffe \
-D’vant nos télés, comme des crétins \
-Sous des tonnes de bouffe \
-Dis Papa, quand c’est qu’y passe \
-Le marchand d’tendresse \
-S’il est sur l’trottoir d’en face \
-Dis-y qu’y traverse \
-J’peux lui en r’filer un peu \
-Pour ceux qu’en ont b’soin \
-J’en ai r’çu tellement mon vieux \
-Qu’j’peux en donner tout plein \
-J’veux partager mon Mac Do \
-Avec ceux qui ont faim \
-J’veux donner d’amour bien chaud \
-A ceux qu’on plus rien \
-Est-ce que c’est ça être coco \
-Ou être un vrai chrétien \
-Moi j’me fous de tous ces mots \
-J’veux être un vrai humain \
-Dis Papa, tous ces discours \
-Me font mal aux oreilles \
-Même ceux qui sont plein d’amour \
-C’est kif-kif-pareil \
-Ça m’fais comme des trous dans la tête \
-Ça m’pollue la vie et tout \
-Ça fait qu’je vois sur ma planète \
-Des «~Inti Fada~» partout \
+#columns(2, gutter: 8pt)[
+  Dis Papa, quand c’est qu’y passe \
+  Le marchand d’cailloux \
+  J’en voudrais dans mes godasses \
+  A la place des joujoux \
 
-#refrain(n: 2)[
-  Et p’t’être que sur ta guitare \
-  J’en jetterai aussi \
-  Si tu t’sers de moi, trouillard \
-  Pour chanter tes conneries
+  Avec mes copines en classe \
+  On comprend pas tout \
+  Pourquoi des gros dégueulasses \
+  Font du mal partout \
+  Pourquoi les enfants de Belfast \
+  Et d’tous les ghettos \
+  Quand y balancent un caillasse \
+  On leur fait la peau \
+  J’croyais qu’David et Goliath \
+  Ça marchait encore \
+  Les plus p’tits pouvaient s’débattrent \
+  Sans être les plus morts \
+
+  Dis Papa, quand c’est qu’y passe \
+  Le marchand d’liberté \
+  Il en a oublié un max \
+  En f’sant sa tournée \
+  Pourquoi des mômes crèvent de faim \
+  Pendant qu’on étouffe \
+  D’vant nos télés, comme des crétins \
+  Sous des tonnes de bouffe \
+
+  Dis Papa, quand c’est qu’y passe \
+  Le marchand d’tendresse \
+  S’il est sur l’trottoir d’en face \
+  Dis-y qu’y traverse \
+  J’peux lui en r’filer un peu \
+  Pour ceux qu’en ont b’soin \
+  J’en ai r’çu tellement mon vieux \
+  Qu’j’peux en donner tout plein \
+  J’veux partager mon Mac Do \
+  Avec ceux qui ont faim \
+  J’veux donner d’amour bien chaud \
+  A ceux qu’on plus rien \
+  Est-ce que c’est ça être coco \
+  Ou être un vrai chrétien \
+  Moi j’me fous de tous ces mots \
+  J’veux être un vrai humain \
+
+  Dis Papa, tous ces discours \
+  Me font mal aux oreilles \
+  Même ceux qui sont plein d’amour \
+  C’est kif-kif-pareil \
+  Ça m’fais comme des trous dans la tête \
+  Ça m’pollue la vie et tout \
+  Ça fait qu’je vois sur ma planète \
+  Des «~Inti Fada~» partout \
+
+  #refrain(
+    [
+      Et p’t’être que sur ta guitare \
+      J’en jetterai aussi \
+      Si tu t’sers de moi, trouillard \
+      Pour chanter tes conneries
+    ],
+    2,
+  )
 ]
 
+#pagebreak()
+#set text(8.3pt)
+#set par(
+  leading: 0.42em,
+  spacing: 1.0em,
+)
 = Morgane de toi
 <morgane-de-toi>
-Y a un mariolle, il a au moins quatre ans \
-Y veut t’ piquer ta pelle et ton seau \
-Ta couche culotte avec tes bonbecs dedans \
-Lolita, défend-toi, fous-y un coup d’ râteau dans l’ dos \
-Attend un peu avant de t’faire emmerder \
-Par ces p’tits machos qui pensent qu’à une chose \
-Jouer au docteur non conventionné \
-J’y ai joué aussi, je sais de quoi j’ cause \
-J’ les connais bien les play-boys des bacs à sable \
-J’ draguais leurs mères avant d’ connaître la tienne \
-Si tu les écoutes y t’ feront porter leurs cartables \
-’Reusement qu’ j’ suis là, que j’ te regarde et que j’ t’aime \
+#columns(2, gutter: 8pt)[
+  Y a un mariolle, il a au moins quatre ans \
+  Y veut t’ piquer ta pelle et ton seau \
+  Ta couche culotte avec tes bonbecs dedans \
+  Lolita, défend-toi, fous-y un coup d’ râteau dans l’ dos \
+  Attend un peu avant de t’faire emmerder \
+  Par ces p’tits machos qui pensent qu’à une chose \
+  Jouer au docteur non conventionné \
+  J’y ai joué aussi, je sais de quoi j’ cause \
+  J’ les connais bien les play-boys des bacs à sable \
+  J’ draguais leurs mères avant d’ connaître la tienne \
+  Si tu les écoutes y t’ feront porter leurs cartables \
+  ’Reusement qu’ j’ suis là, que j’ te regarde et que j’ t’aime \
 
-#refrain[
-  Lola \
-  J’ suis qu’un fantôme quand \
-  tu vas où j’ suis pas \
-  Tu sais ma môme \
-  Que j’ suis morgane de toi \
+  #refrain[
+    Lola \
+    J’ suis qu’un fantôme quand \
+    tu vas où j’ suis pas \
+    Tu sais ma môme \
+    Que j’ suis morgane de toi \
+  ]
+
+  Comme j’en ai marre de m’ faire tatouer des machins \
+  Qui m’ font comme une bande dessinée sur la peau \
+  J’ai écrit ton nom avec des clous dorés \
+  Un par un, plantés dans le cuir de mon blouson dans l’ dos \
+  #colbreak()
+  T’es la seule gonzesse que j’peux tenir dans mes bras \
+  Sans m’ démettre une épaule, sans plier sous ton poids \
+  Tu pèses moins lourd qu’un moineau qui mange pas \
+  Déploie jamais tes ailes, Lolita t’envole pas \
+  Avec tes miches de rat qu’on dirait des noisettes \
+  Et ta peau plus sucrée qu’un pain au chocolat \
+  Tu risques de donner faim a un tas de p’tits mecs \
+  Quand t’iras à l’école, si jamais t’y vas \
+
+  #repeat_refrain() \
+
+  Qu’est-ce qu’ tu m’ racontes tu veux un p’tit frangin \
+  Tu veux qu’ j’ t’achète un ami Pierrot \
+  Eh les bébés ça s’ trouve pas dans les magasins \
+  Puis j’ crois pas que ta mère voudra qu’ j’ lui fasse un p’tit dans l’
+  dos \
+  Ben quoi Lola on est pas bien ensemble \
+  Tu crois pas qu’on est déjà bien assez nombreux \
+  T’entends pas c’ bruit, c’est le monde qui tremble \
+  Sous les cris des enfants qui sont malheureux \
+  Allez viens avec moi, j’t’embarque dans ma galère \
+  Dans mon arche y a d’ la place pour tous les marmots \
+  Avant qu’ ce monde devienne un grand cimetière \
+  Faut profiter un peu du vent qu’on a dans l’ dos \
+
+  #repeat_refrain(2)
 ]
-
-Comme j’en ai marre de m’ faire tatouer des machins \
-Qui m’ font comme une bande dessinée sur la peau \
-J’ai écrit ton nom avec des clous dorés \
-Un par un, plantés dans le cuir de mon blouson dans l’ dos \
-T’es la seule gonzesse que j’peux tenir dans mes bras \
-Sans m’ démettre une épaule, sans plier sous ton poids \
-Tu pèses moins lourd qu’un moineau qui mange pas \
-Déploie jamais tes ailes, Lolita t’envole pas \
-Avec tes miches de rat qu’on dirait des noisettes \
-Et ta peau plus sucrée qu’un pain au chocolat \
-Tu risques de donner faim a un tas de p’tits mecs \
-Quand t’iras à l’école, si jamais t’y vas \
-#strong[\[Refrain\]] \
-Qu’est-ce qu’ tu m’ racontes tu veux un p’tit frangin \
-Tu veux qu’ j’ t’achète un ami Pierrot \
-Eh les bébés ça s’ trouve pas dans les magasins \
-Puis j’ crois pas que ta mère voudra qu’ j’ lui fasse un p’tit dans l’
-dos \
-Ben quoi Lola on est pas bien ensemble \
-Tu crois pas qu’on est déjà bien assez nombreux \
-T’entends pas c’ bruit, c’est le monde qui tremble \
-Sous les cris des enfants qui sont malheureux \
-Allez viens avec moi, j’t’embarque dans ma galère \
-Dans mon arche y a d’ la place pour tous les marmots \
-Avant qu’ ce monde devienne un grand cimetière \
-Faut profiter un peu du vent qu’on a dans l’ dos \
-#strong[\[Refrain\] (x2)]
 
 = Elisa
 <elisa>
-Elisa, Elisa \
-Elisa saute-moi au cou \
-Elisa, Elisa \
-Elisa cherche-moi des poux, \
-Enfonce bien tes ongles, \
-Et tes doigts délicats \
-Dans la jungle \
-De mes cheveux Lisa \
-Elisa, Elisa \
-Elisa saute-moi au cou \
-Elisa, Elisa \
-Elisa cherche-moi des poux, \
-Fais-moi quelques anglaises, \
-Et la raie au milieu \
-On a treize \
-Quatorze ans à nous deux \
-Elisa, Elisa \
-Elisa les autr’s on s’en fout, \
-Elisa, Elisa \
-Elisa rien que toi, moi, nous \
-Tes vingt ans, mes quarante \
-Si tu crois que cela \
-Me tourmente \
-Ah non vraiment Lisa \
-Elisa, Elisa \
-Elisa saute-moi au cou \
-Elisa, Elisa \
-Elisa cherche-moi des poux, \
-Enfonce bien tes ongles, \
-Et tes doigts délicats \
-Dans la jungle \
-De mes cheveux Lisa \
+#columns(2, gutter: 8pt)[
+  Elisa, Elisa \
+  Elisa saute-moi au cou \
+  Elisa, Elisa \
+  Elisa cherche-moi des poux, \
+  Enfonce bien tes ongles, \
+  Et tes doigts délicats \
+  Dans la jungle \
+  De mes cheveux Lisa \
 
+  Elisa, Elisa \
+  Elisa saute-moi au cou \
+  Elisa, Elisa \
+  Elisa cherche-moi des poux, \
+  Fais-moi quelques anglaises, \
+  Et la raie au milieu \
+  On a treize \
+  Quatorze ans à nous deux \
+
+  Elisa, Elisa \
+  Elisa les autr’s on s’en fout, \
+  Elisa, Elisa \
+  Elisa rien que toi, moi, nous \
+  Tes vingt ans, mes quarante \
+  Si tu crois que cela \
+  Me tourmente \
+  Ah non vraiment Lisa \
+
+  Elisa, Elisa \
+  Elisa saute-moi au cou \
+  Elisa, Elisa \
+  Elisa cherche-moi des poux, \
+  Enfonce bien tes ongles, \
+  Et tes doigts délicats \
+  Dans la jungle \
+  De mes cheveux Lisa \
+]
+
+#pagebreak()
+#set text(10pt)
+#set par(
+  leading: 0.65em,
+  spacing: 1.2em,
+)
 = Elle écoute pousser les fleurs
 <elle-écoute-pousser-les-fleurs>
 Elle écoute pousser les fleurs \
@@ -1975,30 +2302,41 @@ Des chiens qui aboient dans la rue \
 Elle fait du pain doré \
 Tous les jours à quatre heures \
 Elle mène sa vie en couleur \
+
 Elle collectionne \
 Les odeurs de l’automne \
 Et les brindilles de bois mort \
 Quand l’hiver arrive \
 Elle ferme ses livres \
+
 Et puis doucement \
 Elle s’endort sur des tapis de laine \
 Au milieu des poupées indiennes \
 Sur les ailes en duvet \
 De ses deux pigeons blancs \
 Jusqu’aux premiers jours du printemps \
+
 Elle dit qu’elle va faire \
 Le tour de la terre \
 Qu’elle sera rentrée pour dîner \
 Les instants fragiles \
 Les mots inutiles \
+
 Elle sait tout cela \
 Quand elle écoute pousser les fleurs \
 Au milieu du bruit des moteurs \
 Quand les autres s’emportent \
 Quand j’arrive à m’enfuir \
 C’est chez elle que je vais dormir \
+
 Et c’est vrai que j’ai peur de lui faire un enfant... \
 
+#pagebreak()
+#set text(11pt)
+#set par(
+  leading: 0.65em,
+  spacing: 1.2em,
+)
 = Quelque chose de Tennessee
 <quelque-chose-de-tennessee>
 On a tous en nous quelque chose de Tennessee \
@@ -2006,21 +2344,25 @@ Cette volonté de prolonger la nuit \
 Ce désir fou de vivre une autre vie \
 Ce rêve en nous avec ses mots à lui \
 Quelque chose en nous de Tennessee \
+
 Quelque chose de Tennessee \
 Cette force qui nous pousse vers l’infini \
 Y a peu d’amour avec tell’ment d’envie \
 Si peu d’amour avec tell’ment de bruit \
 Quelque chose de Tennessee \
+
 Ainsi vivait Tennessee \
 Le cœur en fièvre et le corps démoli \
 Avec cette formidable envie de vie \
 Ce rêve en nous c’était son cri à lui \
 Quelque chose de Tennessee \
+
 Comme une étoile qui s’éteint dans la nuit \
 A l’heure où d’autres s’aiment à la folie \
 Sans un éclat de voix et sans un bruit \
 Sans un seul amour, sans un seul ami \
 Ainsi disparut Tennessee \
+
 A certaines heures de la nuit \
 Quand le cœur de la ville s’est endormi \
 Il flotte un sentiment comme une envie \
@@ -2029,6 +2371,12 @@ Quelque chose de Tennessee \
 Oh oui Tennessee \
 Y a quelque chose en nous de Tennessee... \
 
+#pagebreak()
+#set text(10pt)
+#set par(
+  leading: 0.65em,
+  spacing: 1.2em,
+)
 = Une chanson douce
 <une-chanson-douce>
 Une chanson douce \
@@ -2039,12 +2387,14 @@ Cette chanson douce, \
 Je veux la chanter pour toi \
 Car ta peau est douce \
 Comme la mousse des bois. \
+
 La petite biche est aux abois. \
 Dans le bois, se cache le loup, \
 Ouh, ouh, ouh ouh ! \
 Mais le brave chevalier passa. \
 Il prit la biche dans ses bras. \
 La, la, la, la. \
+
 La petite biche, \
 Ce sera toi, si tu veux. \
 Le loup, on s’en fiche. \
@@ -2053,12 +2403,14 @@ Une chanson douce \
 Pour tous les petits enfants \
 Une chanson douce \
 Que me chantait ma maman. \
+
 O le joli conte que voilà, \
 La biche, en femme, se changea, \
 La, la, la, la \
 Et dans les bras du beau chevalier, \
 Belle princesse elle est restée, \
 A tout jamais \
+
 La belle princesse \
 Avait tes jolis cheveux, \
 La même caresse \
@@ -2068,59 +2420,79 @@ Que me chantait ma maman \
 En suçant mon pouce \
 Je l’écoutais en m’endormant. \
 
+
+#pagebreak()
+#set text(11pt)
+#set par(
+  leading: 0.65em,
+  spacing: 1.2em,
+)
 = Les murs de poussière
 <les-murs-de-poussière>
-Il rêvait d’une ville étrangère \
-Une ville de filles et de jeux \
-Il voulait vivre d’autres manières \
-Dans un autre milieu \
-Il rêvait sur son chemin de pierres \
-\"Je partirai demain, si je veux \
-J’ai la force qu’il faut pour le faire \
-Et j’irai trouver mieux\" \
-Il voulait trouver mieux \
-Que son lopin de terre \
-Que son vieil arbre tordu au milieu \
-Trouver mieux que la douce lumière \
-du soir \
-Près du feu \
-Qui réchauffait son père \
-Et la troupe entière de ses aïeux \
-Le soleil sur les murs de poussière \
-Il voulait trouver mieux... \
-Il a fait tout le tour de la terre \
-Il a même demandé à Dieu \
-Il a fait tout l’amour de la terre \
-Il n’a pas trouvé mieux \
-Il a croisé les rois de naguère \
-Tout drapés de diamants et de feu \
-Mais dans les châteaux des rois de \
-naguère \
-Il n’a pas trouvé mieux... \
-Il n’a pas trouvé mieux \
-Que son lopin de terre \
-Que son vieil arbre tordu au milieu \
-Trouver mieux que la douce lumière \
-du soir \
-Près du feu \
-Qui réchauffait son père \
-Et la troupe entière de ses aïeux \
-Le soleil sur les murs de poussière \
-Il n’a pas trouvé mieux... \
-Il a dit \"Je retourne en arrière \
-Je n’ai pas trouvé ce que je veux\" \
-Il a dit \"Je retourne en arrière\" \
-Il s’est brûlé les yeux \
-Il s’est brûlé les yeux \
-Sur son lopin de terre \
-Sur son vieil arbre tordu au milieu \
-Aux reflets de la douce lumière \
-Du soir près du feu \
-Qui réchauffait son père \
-Et la troupe entière de ses aïeux \
-Au soleil sur les murs de poussière \
-Il s’est brûlé les yeux. \
+#columns(2, gutter: 8pt)[
+  Il rêvait d’une ville étrangère \
+  Une ville de filles et de jeux \
+  Il voulait vivre d’autres manières \
+  Dans un autre milieu \
+  Il rêvait sur son chemin de pierres \
+  \"Je partirai demain, si je veux \
+  J’ai la force qu’il faut pour le faire \
+  Et j’irai trouver mieux\" \
 
+  Il voulait trouver mieux \
+  Que son lopin de terre \
+  Que son vieil arbre tordu au milieu \
+  Trouver mieux que la douce lumière \
+  du soir \
+  Près du feu \
+  Qui réchauffait son père \
+  Et la troupe entière de ses aïeux \
+  Le soleil sur les murs de poussière \
+  Il voulait trouver mieux... \
+
+  Il a fait tout le tour de la terre \
+  Il a même demandé à Dieu \
+  Il a fait tout l’amour de la terre \
+  Il n’a pas trouvé mieux \
+  Il a croisé les rois de naguère \
+  Tout drapés de diamants et de feu \
+  Mais dans les châteaux des rois de \
+  naguère \
+  Il n’a pas trouvé mieux... \
+
+  Il n’a pas trouvé mieux \
+  Que son lopin de terre \
+  Que son vieil arbre tordu au milieu \
+  Trouver mieux que la douce lumière \
+  du soir \
+  Près du feu \
+  Qui réchauffait son père \
+  Et la troupe entière de ses aïeux \
+  Le soleil sur les murs de poussière \
+  Il n’a pas trouvé mieux... \
+
+  Il a dit \"Je retourne en arrière \
+  Je n’ai pas trouvé ce que je veux\" \
+  Il a dit \"Je retourne en arrière\" \
+  Il s’est brûlé les yeux \
+
+  Il s’est brûlé les yeux \
+  Sur son lopin de terre \
+  Sur son vieil arbre tordu au milieu \
+  Aux reflets de la douce lumière \
+  Du soir près du feu \
+  Qui réchauffait son père \
+  Et la troupe entière de ses aïeux \
+  Au soleil sur les murs de poussière \
+  Il s’est brûlé les yeux. \
+]
+
+#pagebreak()
+#set text(12pt)
+#set par(
+  leading: 0.65em,
+  spacing: 1.2em,
+)
 = Petite Marie
 <petite-marie>
 Petite Marie, je parle de toi parc’qu’avec, ta petite voix, tes petite
@@ -2142,12 +2514,20 @@ toi \
 Petite furie, tu dis que la vie c’est une bague à chaque doigt \
 Au soleil de Floride, moi mes poches sont vides et mes yeux pleurent de
 froid \
-#strong[\[Refrain\]] \
+
+#repeat_refrain() \
+
 Dans la pénombre de ta rue, petite Marie, m’entends-tu ? \
 Je n’attends plus que toi pour partir... \
 Dans la pénombre de ta rue, petite Marie, m’entends-tu ? \
 Je n’attends plus que toi pour partir... \
 
+#pagebreak()
+#set text(12pt)
+#set par(
+  leading: 0.65em,
+  spacing: 1.2em,
+)
 = Ça fait rire les oiseaux
 <ça-fait-rire-les-oiseaux>
 #refrain[
@@ -2168,7 +2548,9 @@ La musique est là pour ça. \
 Y a toujours une mélodie pour des jours meilleurs. \
 Allez, tape dans tes mains, ça porte bonheur. \
 C’est magique, un refrain qu’on reprend tous en chœur. \
-#strong[\[Refrain\]] \
+
+#repeat_refrain() \
+
 T’es revenu chez toi la tête pleine de souvenirs : \
 Des soirs au clair de lune, des moments de plaisir. \
 T’es revenu chez toi et tu veux déjà repartir \
@@ -2178,13 +2560,21 @@ La musique est là pour ça. \
 Y a toujours une mélodie pour des jours meilleurs. \
 Allez, tape dans tes mains ça porte bonheur. \
 C’est magique, un refrain qu’on reprend tous en chœur. \
-#strong[\[Refrain\] (x2)]
 
+#repeat_refrain(2)
+
+#pagebreak()
+#set text(12pt)
+#set par(
+  leading: 0.65em,
+  spacing: 1.2em,
+)
 = L’Amérique
 <lamérique>
 Mes amis, je dois m’en aller \
 Je n’ai plus qu’à jeter mes clés \
 Car elle m’attend depuis que je suis né \
+
 L’Amérique, l’Amérique \
 J’abandonne sur mon chemin \
 Tant de choses que j’aimais bien \
@@ -2203,67 +2593,95 @@ Mes amis, je vous dis adieu \
 Je devrais vous pleurer un peu \
 Pardonnez-moi si je n’ai dans les yeux \
 Que l’Amérique, l’Amérique \
+
 Je reviendrai je ne sais pas quand \
 Cousu d’or et brodé d’argent \
 Ou sans un sou, mais plus riche qu’avant \
 De l’Amérique \
-#strong[\[Refrain\]]
 
+#repeat_refrain()
+
+#pagebreak()
+#set text(11pt)
+#set par(
+  leading: 0.65em,
+  spacing: 1.2em,
+)
 = Mon vieux
 <mon-vieux>
-Dans son vieux pardessus râpé \
-Il s’en allait l’hiver, l’été \
-Dans le petit matin frileux \
-Mon vieux. \
-Y avait qu’un dimanche par semaine \
-Les autres jours, c’était la graine \
-Qu’il allait gagner comme on peut \
-Mon vieux. \
-L’été, on allait voir la mer \
-Tu vois c’était pas la misère \
-C’était pas non plus l’paradis \
-Hé oui tant pis. \
-Dans son vieux pardessus râpé \
-Il a pris pendant des années \
-L’même autobus de banlieue \
-Mon vieux. \
-L’soir en rentrant du boulot \
-Il s’asseyait sans dire un mot \
-Il était du genre silencieux \
-Mon vieux. \
-Les dimanches étaient monotones \
-On n’recevait jamais personne \
-Ça n’le rendait pas malheureux \
-Je crois, mon vieux. \
-Dans son vieux pardessus râpé \
-Les jours de paye quand il rentrait \
-On l’entendait gueuler un peu \
-Mon vieux. \
-Nous, on connaissait la chanson \
-Tout y passait, bourgeois, patrons, \
-La gauche, la droite, même le bon Dieu \
-Avec mon vieux. \
-Chez nous y’avait pas la télé \
-C’est dehors que j’allais chercher \
-Pendant quelques heures l’évasion \
-Tu sais, c’est con! \
-Dire que j’ai passé des années \
-A côté de lui sans le regarder \
-On a à peine ouvert les yeux \
-Nous deux. \
-J’aurais pu c’était pas malin \
-Faire avec lui un bout d’chemin \
-Ça l’aurait pt’être rendu heureux \
-Mon vieux. \
-Mais quand on a juste quinze ans \
-On n’a pas le cœur assez grand \
-Pour y loger toutes ces choses-là \
-Tu vois. \
-Maintenant qu’il est loin d’ici \
-En pensant à tout ça, j’me dis \
-J’aim’rais bien qu’il soit près de moi \
-Papa… \
+#columns(2, gutter: 8pt)[
+  Dans son vieux pardessus râpé \
+  Il s’en allait l’hiver, l’été \
+  Dans le petit matin frileux \
+  Mon vieux. \
 
+  Y avait qu’un dimanche par semaine \
+  Les autres jours, c’était la graine \
+  Qu’il allait gagner comme on peut \
+  Mon vieux. \
+
+  L’été, on allait voir la mer \
+  Tu vois c’était pas la misère \
+  C’était pas non plus l’paradis \
+  Hé oui tant pis. \
+
+  Dans son vieux pardessus râpé \
+  Il a pris pendant des années \
+  L’même autobus de banlieue \
+  Mon vieux. \
+
+  L’soir en rentrant du boulot \
+  Il s’asseyait sans dire un mot \
+  Il était du genre silencieux \
+  Mon vieux. \
+
+  Les dimanches étaient monotones \
+  On n’recevait jamais personne \
+  Ça n’le rendait pas malheureux \
+  Je crois, mon vieux. \
+
+  Dans son vieux pardessus râpé \
+  Les jours de paye quand il rentrait \
+  On l’entendait gueuler un peu \
+  Mon vieux. \
+
+  Nous, on connaissait la chanson \
+  Tout y passait, bourgeois, patrons, \
+  La gauche, la droite, même le bon Dieu \
+  Avec mon vieux. \
+
+  Chez nous y’avait pas la télé \
+  C’est dehors que j’allais chercher \
+  Pendant quelques heures l’évasion \
+  Tu sais, c’est con! \
+
+  Dire que j’ai passé des années \
+  A côté de lui sans le regarder \
+  On a à peine ouvert les yeux \
+  Nous deux. \
+
+  J’aurais pu c’était pas malin \
+  Faire avec lui un bout d’chemin \
+  Ça l’aurait pt’être rendu heureux \
+  Mon vieux. \
+
+  Mais quand on a juste quinze ans \
+  On n’a pas le cœur assez grand \
+  Pour y loger toutes ces choses-là \
+  Tu vois. \
+
+  Maintenant qu’il est loin d’ici \
+  En pensant à tout ça, j’me dis \
+  J’aim’rais bien qu’il soit près de moi \
+  Papa… \
+]
+
+#pagebreak()
+#set text(10pt)
+#set par(
+  leading: 0.65em,
+  spacing: 1.2em,
+)
 = J’te le dis quand-même
 <jte-le-dis-quand-même>
 On aurait pu se dire tout ça \
@@ -2315,6 +2733,12 @@ Diego, libre dans sa tête \
 Derrière sa fenêtre \
 Déjà mort peut-être... \
 
+#pagebreak()
+#set text(10pt)
+#set par(
+  leading: 0.65em,
+  spacing: 1.2em,
+)
 = San Francisco
 <san-francisco>
 C’est une maison bleue adossée à la colline \
@@ -2381,7 +2805,7 @@ Je dois juste m’asseoir, je ne dois pas parler \
 Je ne dois rien vouloir je dois juste essayer \
 De lui appartenir, de lui appartenir \
 Je l’aime à mourir \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Moi je n’étais rien et voilà qu’aujourd’hui \
 Je suis le gardien Du sommeil de ses nuits \
 Je l’aime à mourir \
@@ -2421,7 +2845,7 @@ C’est comme des parfums qu’on respire \
 Il faudra leur dire \
 Facile à faire \
 Un peu plus d’amour que d’ordinaire \
-#strong[\[Refrain\] (x2)] \
+#repeat_refrain(2) \
 
 = Qui a le droit
 <qui-a-le-droit>
@@ -2453,7 +2877,7 @@ A toi aussi, j’ suis sur qu’on t’en a dit, \
 De belles histoires, tu parles... que des conneries ! \
 Alors maintenant, on s’ retrouve sur la route, \
 Avec nos peurs, nos angoisses et nos doutes. \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 
 = Déjeuner en paix
 <déjeuner-en-paix>
@@ -2483,7 +2907,7 @@ Je regarde sur la chaise le journal du matin \
 Les nouvelles sont mauvaises d’où qu’elles viennent \
 «~Crois-tu qu’il va neiger ?~» me demande-t-elle soudain \
 «~Me feras-tu un bébé pour Noël ?~» \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 
 = Les enfants du monde entier
 <les-enfants-du-monde-entier>
@@ -2741,7 +3165,7 @@ Elle chantait les grenouilles et les princesses qui dorment au bois \
 Elle aimait sa poupée elle aimait ses amis \
 Surtout Ruth et Anna et surtout Jérémie \
 Et ils se marieraient un jour peut-être à Varsovie \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Elle s’appelait Sarah elle n’avait pas huit ans \
 Sa vie c’était douceur rêves et nuages blancs \
 Mais d’autres gens en avaient décidé autrement \
@@ -2864,7 +3288,7 @@ Matin pour agir ou attendre la chance \
 Ou bousculer les évidences \
 Matin innocence, matin intelligence \
 C’est toi qui décide du sens \
-#strong[\[Refrain\]]
+#repeat_refrain()
 
 = Le paradis blanc
 <le-paradis-blanc>
@@ -2949,7 +3373,7 @@ Mais c’est quand les autres n’étaient pas là \
 Et pour quelles raisons bizarres, \
 Son image a marqué ma mémoire, \
 Ma mémoire.. \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Il jouait du piano debout \
 Il chantait sur des rythmes fous \
 Et pour moi ça veut dire beaucoup \
@@ -3021,7 +3445,7 @@ Lucie, Lucie t’arrête pas, on ne vit \
 Qu’une vie à la fois... \
 A peine le temps de savoir, \
 Qu’il est déjà trop tard... \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Mmmm, Lucie, j’ai fait le tour, \
 De tant d’histoires d’amour. \
 J’ai bien, bien assez de courage, \
@@ -3034,7 +3458,7 @@ Lucie, Lucie t’encombre pas \
 De souvenirs, de choses comme ça. \
 Aucun regret ne vaut le coup \
 Pour qu’on le garde en nous.. \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 
 = Elle a les yeux revolver
 <elle-a-les-yeux-revolver>
@@ -3062,7 +3486,7 @@ On vit toujours des moments défendus \
 C’est comme ça \
 Tell’ment si femme quand elle mord \
 Tell’ment si femme, je l’aime tell’ment si fort \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Son corps s’achève sous des draps inconnus \
 Et moi je rêve de gestes défendus \
 C’est comme ça \
@@ -3071,7 +3495,7 @@ Le visage pâle, les cheveux en arrière \
 Et j’aime ça \
 Tell’ment si femme quand elle dort \
 Tell’ment si belle, je l’aime tell’ment si fort \
-#strong[\[Refrain\]]
+#repeat_refrain()
 
 = Cendrillon
 <cendrillon>
@@ -3140,7 +3564,7 @@ Alors je t’ai accompagnée \
 On a chanté on a dansé \
 Et on n’a même pas pensé \
 A s’embrasser \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Hier soir deux inconnus \
 Et ce matin sur l’avenue \
 Deux amoureux tout étourdis \
@@ -3149,7 +3573,7 @@ Et de l’étoile a la concorde \
 Un orchestre a mille cordes \
 Tous les oiseaux du point du jour \
 Chantent l’amour \
-#strong[\[Refrain\] (x2)] \
+#repeat_refrain(2) \
 Aux champs Elysées \
 Aux champs Elysées
 
@@ -3230,7 +3654,7 @@ moi \
 Des concerts de cent mille personnes \
 Où même le tout-Paris s’étonne \
 Et se lève pour prolonger le combat \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Puis quand j’en aurai assez \
 De rester leur idole \
 Je remont’rai sur scène \
@@ -3329,7 +3753,7 @@ Le temps qui nous casse, ne la change pas \
 Les vivants se fanent, mais les ombres pas \
 Tout va, tout fonctionne, sans but sans pourquoi \
 D’hiver en automne, ni fièvre ni froid \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Elle apprend dans la presse à scandale \
 La vie des autres qui s’étale \
 Mais finalement de moins pire en banal \
@@ -3344,7 +3768,7 @@ Ses rêves et désirs si sages, si possible \
 Sans cri, sans délires sans inadmissible \
 Sur dix ou vingt pages de photos banales \
 Bilan sans mystères d’années sans lumière \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Elle apprend dans la presse à scandale \
 La vie des autres qui s’étale \
 Mais finalement de moins pire en banal \
@@ -3380,12 +3804,12 @@ Perdue dans tes nuances, la conscience au repos, \
 Pendant qu’ le monde avance, tu trouves pas bien tes mots. \
 T’ hésites entre tout dire et un drôle de silence. \
 T’as du mal à partir, alors tu joues l’innocence. \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Dans ma tête une musique vient plaquer ses images \
 Sur des rythmes d’Afrique mais j’ vois pas l’ paysage \
 toujours ces hommes au courent, une terre qui recule; \
 Des appels au secours des enfants qu’on bouscule \
-#strong[\[Refrain\] (x2)]
+#repeat_refrain(2)
 
 = Imagine
 <imagine>
@@ -3438,7 +3862,7 @@ Still a chance that they will see \
 There will be an answer, let it be. \
 Let it be, let it be, let it be, let it be, \
 Yeah there will be an answer, let it be ! \
-#strong[\[Refrain\] (x2)] \
+#repeat_refrain(2) \
 And when the night is cloudy, \
 There is still a light that shines on me, \
 Shine on until tomorrow, let it be. \
@@ -3447,7 +3871,7 @@ Mother Mary comes to me \
 Speaking words of wisdom, let it be. \
 Let it be, let it be, let it be, let it be, \
 Yeah there will be an answer, let it be ! \
-#strong[\[Refrain\]]
+#repeat_refrain()
 
 = Les miroirs dans la boue
 <les-miroirs-dans-la-boue>
@@ -3486,7 +3910,7 @@ Il restait un message \
 Vous me plaisiez beaucoup \
 Mais je n’pense pas avoir besoin de vous \
 Les yeux verts noyés de cheveux roux \
-#strong[\[Refrain\]]
+#repeat_refrain()
 
 = L’aventurier
 <laventurier>
@@ -3524,7 +3948,7 @@ L’otage des guerriers du Doc Xhatan \
 Il s’en sortira toujours à temps \
 Tel l’aventurier solitaire \
 Bob Morane est le roi de la Terre. \
-#strong[\[Refrain\]]
+#repeat_refrain()
 
 = Pas toi
 <pas-toi>
@@ -3630,7 +4054,7 @@ Tant qu’on aura besoin de toi \
 Et tu prends les bonheurs \
 Comme grains de raisin \
 Petits bouts de petits riens \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Tu es de ma famille x2 \
 Du même rang, du même vent \
 Tu es de ma famille x2 \
@@ -3881,7 +4305,7 @@ Quand le vétérinaire, \
 D’un seul coup, l’acheva, \
 J’ai vu pleurer mon père \
 Pour la première fois. \
-#strong[\[Refrain\]]
+#repeat_refrain()
 
 = Légende indienne
 <légende-indienne>
@@ -4042,7 +4466,7 @@ J’ai peur du temps qui passe, dis \
 Comment peut on vivre aujourd’hui \
 Dans la fureur et dans le bruit \
 Je ne sais pas, je ne sais plus, je suis perdu \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Mais l’amour dont on m’a parlé \
 Cet amour que l’on m’a chanté \
 Ce sauveur de l’humanité \
@@ -4050,7 +4474,7 @@ Je n’en vois pas la trace, dis \
 Comment peut on vivre sans lui ? \
 Sous quelle étoile, dans quel pays ? \
 Je n’y crois pas, je n’y crois plus, je suis perdu \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Mais j’en ai marre d’être roulé \
 Par des marchands de liberté \
 Et d’écouter se lamenter \
@@ -4058,7 +4482,7 @@ Ma gueule dans la glace, dis \
 Est-ce que je dois montrer les dents ? \
 Est-ce que je dois baisser les bras ? \
 Je ne sais pas, je ne sais plus, je suis perdu \
-#strong[\[Refrain\]]
+#repeat_refrain()
 
 = Education sentimentale
 <education-sentimentale>
@@ -4184,7 +4608,7 @@ Combien d’oreilles faut-il aux malheureux \
 Avant d’écouter leurs pareils ? \
 Combien de pleurs faut-il à l’homme heureux \
 Avant que son cœur ne s’éveille ? \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Combien d’années faudra t-il à l’esclave \
 Avant d’avoir sa liberté, \
 Combien de temps un soldat est-il brave \
@@ -4360,7 +4784,7 @@ Et le bois joli de monsieur l’Baron \
 Et entre la vigne de notre voisin \
 Et le doux sourire de la Madelon \
 La Madelon… \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 
 Tous ceux que l’on cherche à pouvoir aimer \
 Sont auprès de nous et à chaque instant \
@@ -4406,7 +4830,7 @@ Ce n’était rien qu’un peu de pain \
 Mais il m’avait chauffé le corps \
 Et dans mon âme il brûle encore \
 A la manière d’un grand festin \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Elle est à toi cette chanson \
 Toi l’étranger qui sans façon \
 D’un air malheureux m’as souri \
@@ -4419,7 +4843,7 @@ Ce n’était rien qu’un peu de miel \
 Mais il m’avait chauffé le corps \
 Et dans mon âme il brûle encore \
 A la manière d’un grand soleil \
-#strong[\[Refrain\]]
+#repeat_refrain()
 
 = As-tu vu la vache?
 <as-tu-vu-la-vache>
@@ -4680,12 +5104,12 @@ Fanchon, quoique bonne chrétienne \
 Fut baptisée avec du vin \
 Un Bourguignon fut son parrain \
 Une Bretonne sa marraine \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Fanchon préfère la grillade \
 A tous les mets plus délicats \
 Son teint prend un nouvel éclat \
 Quand on lui verse une rasade \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Fanchon ne se montre cruelle \
 Que lorsqu’on lui parle d’amour \
 Mais moi, je ne lui fais la cour \
@@ -4711,7 +5135,7 @@ A la foire du village un jour je lui ai soupiré \
 Que je voudrais être une pomme suspendue à un pommier \
 Et qu’à chaque fois qu’elle passe elle vienne me mordre dedans \
 Mais elle est passée tout en me montrant ses jolies dents. \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Zaï zaï zaï zaï zaï, zaï zaï zaï zaï, zaï zaï zaï zaï (2×) \
 Oh oh, oh oh (2×) \
 
@@ -4806,7 +5230,7 @@ Celle qui comprendra, celle qui me dira \
 Quel que soit le chemin, je te suis pas à pas\" \
 Et s’il m’arrivait alors de tomber \
 C’est elle qui me relèverait \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Demandez-moi tout ce que vous voulez \
 De ne plus jamais voir personne \
 De renoncer aux parfums de l’été \
@@ -4815,7 +5239,7 @@ Demandez-moi de ne plus croire en rien \
 Pourvu que je la voie au bout de mon chemin \
 Demandez-moi tout ce que vous voulez \
 Mais dites-moi où la trouver \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 
 = Comme un soleil
 <comme-un-soleil-1>
@@ -4875,17 +5299,17 @@ C’est dans la pipe qu’on met l’tabac, \
 houla la houla, \
 C’est dans la pipe qu’on met l’tabac, \
 houla houlala. \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 C’est dans la mer qu’on met les mâts, \
 houla la houla, \
 C’est dans la mer qu’on met les mâts, \
 houla houlala. \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 C’est dans la gueule qu’on se met l’tafia, \
 houla la houla, \
 C’est dans la gueule qu’on se met l’tafia, \
 houla houlala. \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Mais les filles, ça s’met dans les bras, \
 houla la houla, \
 Mais les filles, ça s’met dans les bras, \
@@ -4948,7 +5372,7 @@ Ils se voient déjà doucement \
 Ell’ cousant, lui fumant \
 Dans un bien-être sûr \
 Et choisissent les prénoms de leur premier bébé \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Quand les mois auront passé \
 Quand seront apaisés \
 Leurs beaux rêves flambants \
@@ -4957,7 +5381,7 @@ Ils s’apercevront émus \
 Qu’ c’est au hasard des rues \
 Sur un d’ces fameux bancs \
 Qu’ils ont vécu le meilleur morceau de leur amour \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Quand la saint’ famill’ machin \
 Croise sur son chemin \
 Deux de ces malappris \
@@ -5032,7 +5456,7 @@ Les rois du monde se battent entre eux \
 C’est qu’y a de la place, mais pour un pas pour deux \
 Et nous en bas leur guerre on la fera pas \
 On sait même pas pourquoi tout ça c’est jeux de rois \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 
 = On ira
 <on-ira>
@@ -5092,7 +5516,7 @@ Elle fait chanter les hommes et s’agrandir le monde. \
 Elle fait parfois souffrir tout le long d’une vie. \
 Elle fait pleurer les femmes, elle fait crier dans l’ombre \
 Mais le plus douloureux, c’est quand on en guérit. \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Elle surprend l’écolière sur le banc d’une classe \
 Par le charme innocent d’un professeur d’anglais. \
 Elle foudroie dans la rue cet inconnu qui passe \
@@ -5130,7 +5554,7 @@ Et même si les tempêtes \
 Les dieux mauvais, les courants \
 Nous feront courber la tête \
 Plier genoux sous le vent \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Et même si tu me laisses \
 Au creux d’un mauvais détour \
 En ces moments où l’on teste \
@@ -5166,7 +5590,7 @@ On sait tout le prix du silence \
 Là-bas, au Connemara \
 On dit que la vie, c’est une folie \
 Et que la folie, ça se danse \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 On y vit encore au temps des Gaëls et de Cromwell \
 Au rythme des pluies et du soleil \
 Aux pas des chevaux \
@@ -5213,7 +5637,7 @@ Disons entrecoupé d’silence \
 Qu’on est bien seul pour une fois \
 Qu’on est bien parti pour une danse \
 Ca ira pas plus loin tu vois \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Reste à savoir si on trace \
 Un trait un point dans notre espace \
 Si j’ai pas toute ma raison \
@@ -5833,13 +6257,16 @@ Des yeux couleur de l’océan \
 Moi pour faire le malin \
 Je chantais en Italien \
 
-#refrain(n: 2)[
-  Est-ce que tu viens pour les vacances \
-  Moi je n’ai pas changé d’adresse \
-  Je serai je pense \
-  Un peu en avance \
-  Au rendez-vous de nos promesses \
-]
+#refrain(
+  [
+    Est-ce que tu viens pour les vacances \
+    Moi je n’ai pas changé d’adresse \
+    Je serai je pense \
+    Un peu en avance \
+    Au rendez-vous de nos promesses \
+  ],
+  2,
+)
 
 Je reviendrai danser \
 Une chanson triste, un slow d’été \
@@ -5963,17 +6390,17 @@ Un sms vient d’arriver, j’ai 20 ans, \
 on l’a fait sans se protéger mais j’veux pas d’un enfant, \
 l’horloge tourne, les minutes infanticides \
 et moi je rêve de remonter le temps. \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Un sms vient d’arriver, j’ai 21 ans, \
 9 mois se sont écoulés et toujours pas d’enfants. \
 l’horloge tourne, les minutes se dérrident \
 et moi je rêve, tranquille je prends mon temps. \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 un sms vient d’arriver, j’ai 25 ans, \
 un tsunami a tout emporté, même les jeux d’enfants, \
 l’horloge tourne, les minutes sont acides \
 et moi je rêve que passe le mauvais temps \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Un sms vient d’arriver, jai 28 ans, \
 mamie est bien fatiguée mais j’suis plus un enfant, \
 l’horloge tourne mais son cœur se suicide \
@@ -6049,18 +6476,18 @@ And the battle’s just begun \
 There’s many lost, but tell me who has won? \
 The trenches dug within our hearts \
 And mothers, children, brothers, sisters torn apart \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 How long, how long must we sing this song? \
 How long? How long? \
 ’Cause tonight we can be as one \
 Tonight, tonight \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Wipe the tears from your eyes \
 Wipe your tears away \
 I’ll wipe your tears away \
 I’ll wipe your tears away (Sunday, Bloody Sunday) \
 I’ll wipe your bloodshot eyes (Sunday, Bloody Sunday) \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 And it’s true we are immune \
 When fact is fiction and TV reality \
 And today the millions cry \
@@ -6068,7 +6495,7 @@ We eat and drink while tomorrow they die \
 The real battle just begun \
 To claim the victory Jesus won \
 On… \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 
 = Je veux (Zaz)
 <je-veux-zaz>
@@ -6144,17 +6571,17 @@ Aux peurs impossibles à échanger \
 Tout est possible, tout est réalisable \
 On peut s’enfuir bien plus haut que nos rêves \
 On peut partir bien plus loin que la grève \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Avec l’envie, la force et le courage \
 Le froid, la peur ne sont que des mirages \
 Laissez tomber les malheurs pour une fois \
 Allez, venez, reprenez avec moi \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Je sais, c’est vrai, ma chanson est naïve \
 Même un peu bête mais bien inoffensive \
 Et même si elle ne change pas le monde \
 Elle vous invite à entrer dans la ronde \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 L’espoir, l’ardeur sont tout ce qu’il te faut \
 Mes bras, mon coeur, mes épaules et mon dos \
 Je veux te voir des étoiles dans les yeux \
@@ -6462,7 +6889,7 @@ Des nuits d’amour à plus finir \
 Un grand bonheur, qui prend sa place \
 Des ennuis des chagrins s’effacent \
 Heureux, heureux, à en mourir \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 {Nota: variante pour le dernier couplet:} \
 Des nuits d’amour à en mourir \
 Un grand bonheur qui prend sa place \
@@ -7372,14 +7799,14 @@ Elle m’emmena au loin avec une douceur sans fin \
 Et ses bouclettes dorées dégageaient ce parfum \
 Qui depuis des années guidait ce chemin \
 Ton chemin, mon chemin, le chemin \
-#strong[\[Refrain\]] \
+#repeat_refrain() \
 Pour arriver enfin à ces rêves d’enfants \
 Qui n’ont pas de limites comme on a maintenant \
 J’ai vu des dauphins nager dans un ciel de coton \
 Où des fleurs volaient, caressant l’horizon \
 Vu des arbres pousser, remplaçant les gratte-ciels \
 J’ai vu au fond de l’eau une nuée d’hirondelles \
-#strong[\[Refrain\]]
+#repeat_refrain()
 
 = Saez – Jeune et con
 <saez-jeune-et-con>
